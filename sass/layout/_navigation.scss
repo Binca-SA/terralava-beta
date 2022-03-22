@@ -1,0 +1,133 @@
+/*TOP BAR*/
+.containter-topbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 10%;
+}
+.container-logo{
+    position: absolute;
+    align-items: center;
+}
+.logo-img{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*boton menu*/
+.nav-bar{
+    cursor:pointer;
+    background: none;
+    /* backdrop-filter: blur(10px); */
+    /* padding: 14px; */
+    border: none;
+    width: 50px;
+}
+.menu{
+    list-style: none;
+    padding: 0;
+    margin-right: $molecule-margin;
+    border-radius: 8px;
+    width: 100%;
+    cursor: pointer;
+    backdrop-filter: blur(10px);
+    border: 1px solid black;
+    /* border-radius: 12px; */
+    margin-left:-130% ;
+    transition: all .3s ease-in-out;
+}
+.menu__link{
+    display: block;
+    padding:$atom-margin;
+    font-size: $h2;
+    text-decoration:none;
+    color: black;
+    // border-bottom: 1px solid black;
+    &:hover{
+        border-radius:8px;
+        transition: all .4s ease-in-out;
+        background-color: #9D0B0B;
+        color: white;
+    }
+}
+
+// .menu__link:hover {
+//     border-radius:8px;
+//     transition: all .4s ease-in-out;
+//     background-color: #9D0B0B;
+//     color: white;
+// }
+
+/*svg*/
+.arrow__icon{
+    width: 15px;
+    height: 15px;
+    margin-left: 10px;
+    &:hover{
+        fill: white;
+    }
+}
+
+/*menu secundario*/
+.submenu{
+    height: 0;
+    overflow: hidden;
+    transition: all .3s;
+    // backdrop-filter: blur(10px);
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    border-bottom: 1px solid black;
+}
+
+/*clase puesta con js*/
+.mostrar{
+    margin-left: $atom-margin;
+} 
+
+
+/*para desktop*/
+@media (min-width:700px) {
+    .nav-bar{
+        display: none;
+    }
+    .menu{
+        margin-left: 0;
+        display: flex;
+        border: none;
+        
+    }
+    .container-submenu{
+        position: relative;
+        
+
+    }
+    .submenu{
+        position: absolute;
+        /* top: 60px;se separa del menu */
+        width: 200px;
+        overflow: visible;
+        z-index: 2;
+        visibility: hidden;
+        opacity: 0 ;
+        border: none;
+        // border: 1px solid black;
+        // border-left:1px solid black;
+        // border-right:1px solid black ;
+        // border-bottom-left-radius: 8px;
+        // border-bottom-right-radius: 8px;
+    }
+    .menu__link{
+        border: none;
+    }
+    .container-submenu:hover .submenu{
+        opacity: 1;
+        visibility: visible;
+    }
+    .main-nav{
+        position: inherit;
+    }
+} 
