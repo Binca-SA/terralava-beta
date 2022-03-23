@@ -16,7 +16,7 @@
     align-self: end;
     margin: {
         top: 0;
-        bottom:1.7em;
+        bottom:2.1em;
     }
 
 }
@@ -28,31 +28,31 @@
     
 } 
 .swiper {
-  width: 236px;
-  height: 350px;
-  border-top-left-radius: 180px;
-  border-top-right-radius: 180px;
-  grid-column:  1/-1;
-  grid-row: 2/-2;
-  margin-top: 3em;
+    width: 20.6em;//236px
+    height: 31em;
+    border-top-left-radius: 180px;
+    border-top-right-radius: 180px;
+    grid-column:  1/-1;
+    grid-row: 2/-2;
+    margin-top: 3em;
 }
 
 .swiper-slide {
-  text-align: center;
-  font-size: 18px;
-  background: #fff;
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
 
   /* Center slide text vertically */
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .swiper-slide img {
-  display: block;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 /*contenedor paginacion con flechas*/
@@ -126,6 +126,43 @@
     position: inherit;
     grid-column:2/2 ;
     grid-row: -2/-2;
-    justify-self: end;
-    align-self: center;
+    justify-self: center;
+    align-self: flex-start;
+    width: 50%;
+    margin-top: .7em;
+}
+
+/*para desktop*/
+@media (min-width:700px){
+    .title-jewlery{
+        justify-self: center;
+        align-self: center;
+        margin: 0;
+        margin-right: 8em;
+    }
+    .subtitle-jewlery{
+        justify-self:center;
+        align-self: center;
+        margin: 0;
+        margin-left: 6.8em;
+    }
+    .swiper {
+        margin-top: 0;
+        width: calc(20.6em *1);
+        height: calc(31em *1);
+    }
+    .swiper-button-next{
+        grid-column: 2/3;
+        grid-row: 6/5;
+        justify-self: end;
+        align-self: auto;
+        margin: 0;
+    }
+    .swiper-button-prev{
+        grid-column: 2/3;
+        grid-row: 6/5;
+        align-self: auto;
+        justify-self: start;
+        margin: 0;
+    }
 }
