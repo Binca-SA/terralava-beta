@@ -5,10 +5,14 @@
     justify-content: space-around;
     padding-top: 10%;
 }
-.container-logo{
-    position: absolute;
-    align-items: center;
-}
+// .container-logo{
+//     // nose q hacer con mi vida
+//     // position: absolute;
+//     // align-items: center;
+//     // display: block;
+//     // margin-right: auto;
+    
+// }
 .logo-img{
     width: 50px;
     height: 50px;
@@ -27,16 +31,19 @@
     width: 50px;
 }
 .menu{
+    position: absolute;
     list-style: none;
+    z-index: 5;
     padding: 0;
     margin-right: $molecule-margin;
     border-radius: 8px;
-    width: 100%;
+    // width: 100%;
     cursor: pointer;
     backdrop-filter: blur(10px);
     border: 1px solid black;
     /* border-radius: 12px; */
     margin-left:-130% ;
+    // display: none;
     transition: all .3s ease-in-out;
 }
 .menu__link{
@@ -86,11 +93,19 @@
 /*clase puesta con js*/
 .mostrar{
     margin-left: $atom-margin;
+    // display: block;
 } 
 
 
 /*para desktop*/
 @media (min-width:700px) {
+    .containter-topbar{
+        padding-top:$atom-margin ;
+        
+    }
+    .container-logo{
+        position: inherit;
+    }
     .nav-bar{
         display: none;
     }
@@ -99,12 +114,9 @@
         display: flex;
         border: none;
         
-    }
-    .container-submenu{
-        position: relative;
-        
+    }    
 
-    }
+    
     .submenu{
         position: absolute;
         /* top: 60px;se separa del menu */
@@ -128,6 +140,7 @@
         visibility: visible;
     }
     .main-nav{
-        position: inherit;
+        margin-left: 0 auto;
     }
-} 
+    
+}
