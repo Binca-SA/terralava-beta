@@ -9,8 +9,8 @@
     <link rel="stylesheet" href="./css/main.css">
 
 </head>
-<body>
-<section class="contenedor-swiper">
+
+    <section class="contenedor-swiper">
         <h1 class="title-jewlery">Terralava</h1>
         <div class="swiper mySwiper">
             <div class="swiper-wrapper">
@@ -31,5 +31,4 @@
     </section>
         
     <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
-</body>
-</html>
+

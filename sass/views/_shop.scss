@@ -1,0 +1,113 @@
+
+//section grid shop//
+.grid-shop{
+    margin: {
+        right: 1.5em;
+        left:1.5em;
+    };
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+//filter links
+.despliegue-filtro{
+    /* margin-left:-110% ; */
+    display: none;
+    transition: all .3s ease-in-out;
+}
+.btn-filtro{
+    position: fixed;
+    margin-left: $molecule-margin;
+}
+    .filtro__link{
+        display: block;
+        padding: .5em;
+        &:hover{
+            transition: all .4s ease-in-out;
+        }
+    }
+    
+
+
+/*clase puesta con js*/
+.mostrar{
+    /* margin-left: 0; */
+    display: block;
+    
+} 
+
+//GRID
+
+// .list{
+//     display: grid;
+//     grid-auto-columns: max-content;
+//     grid-auto-flow: dense;
+//     grid-auto-rows: minmax(100px, auto);
+//     grid-gap: 2em;
+//     grid-template-columns: repeat(4, 1fr);
+
+//     //visual style
+//     margin-top: 60px ;
+//     max-width: 70vw;
+// }
+
+// .product{
+//     // width: 215px;
+//     background-color: white;
+//     grid-column: span 1;
+//     grid-row: span 1;
+//     &:nth-of-type(3n){
+//         grid-column: span 2;
+//     }
+//     &:nth-of-type(4n){
+//         grid-row: span 2;
+//     }
+//     // &:nth-of-type(5n)&:nth-of-type(6n){
+//     //     grid-row: span 1;
+//     // }
+//     &__image{
+//         display: block;
+//         height: auto;
+//         width: 70%;
+//         object-fit: cover;
+//     }
+// }
+
+.list{
+    display: grid;
+    grid-auto-columns: max-content;
+    grid-auto-flow: dense;
+    // grid-auto-rows: minmax(100px, auto);
+    grid-gap: 2em;
+    grid-template-columns: repeat(4, 1fr);
+
+    //visual style
+    margin-top: 60px ;
+    max-width: 70vw;
+    }
+
+    .product{
+        // background-color: white;
+        // grid-column: span 1;
+        // grid-row: span 1;
+        // &:nth-of-type(3n){
+        //     grid-column: span 2;
+        // }
+        // &:nth-of-type(4n){
+        //     grid-row: span 2;
+        // }
+        &__image{
+            margin: 0 auto;
+            display: block;
+            // height: auto;
+            width: 100%;
+            object-fit:cover;
+        }
+        &__name__title{
+            margin-top: 10px;
+            margin-bottom: 0;
+        }
+        &__price{
+            margin-top: 10px;
+        }
+    }

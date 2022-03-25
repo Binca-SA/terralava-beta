@@ -16,7 +16,7 @@
     align-self: end;
     margin: {
         top: 0;
-        bottom:2.1em;
+        bottom:1.9em;
     }
 
 }
@@ -128,8 +128,7 @@
     grid-row: -2/-2;
     justify-self: center;
     align-self: flex-start;
-    width: 50%;
-    margin-top: .7em;
+    margin-top: 2em;
 }
 
 /*para desktop*/
@@ -165,4 +164,9 @@
         justify-self: start;
         margin: 0;
     }
+    .swiper-pagination{
+        width: 50%;
+        margin-top: .7em;
+    }
 }
+
