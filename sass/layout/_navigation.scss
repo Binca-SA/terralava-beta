@@ -1,12 +1,13 @@
 /*TOP BAR*/
 .containter-topbar{
-    backdrop-filter: blur(10px); 
+    // backdrop-filter: blur(10px); 
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     padding-top: 10%;
     position: fixed;
     width: 100%;
+    z-index: $z-top; ;
 }
 // .container-logo{
 //     // nose q hacer con mi vida
@@ -42,13 +43,14 @@
     border-radius: 8px;
     // width: 100%;
     cursor: pointer;
-    backdrop-filter: blur(10px);
+    // backdrop-filter: blur(10px);
     border: 1px solid black;
     /* border-radius: 12px; */
     margin-left:-130% ;
     // display: none;
     transition: all .3s ease-in-out;
 }
+
 .menu__link{
     display: block;
     padding:$atom-margin;
@@ -87,12 +89,11 @@
     height: 0;
     overflow: hidden;
     transition: all .3s;
-    backdrop-filter: blur(10px); 
+    // backdrop-filter: blur(10px); 
     list-style: none;
     padding: 0;
     margin: 0;
     border-bottom: 1px solid black;
-    
 }
 
 /*clase puesta con js*/
@@ -106,7 +107,6 @@
 @media (min-width:700px) {
     .containter-topbar{
         padding-top:$atom-margin ;
-        
     }
     .container-logo{
         order:-1;
@@ -122,10 +122,7 @@
         // margin-left: auto;
         margin-right: auto;
         // order: 2;
-        
     }    
-
-    
     .submenu{
         position: absolute;
         /* top: 60px;se separa del menu */
@@ -135,7 +132,6 @@
         visibility: hidden;
         opacity: 0 ;
         border: none;
-        
         // border: 1px solid black;
         // border-left:1px solid black;
         // border-right:1px solid black ;
@@ -159,5 +155,4 @@
     .main-nav{
         margin-left: 0 auto;
     }
-    
 }

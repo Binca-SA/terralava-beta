@@ -25,6 +25,7 @@
     grid-template-columns: 1fr 0.30fr 1fr;
     grid-template-rows: .30fr 1fr 1fr 1fr 1fr;
     font-family: $headers;
+    padding-top: 8em;
     
 } 
 .swiper {
@@ -133,6 +134,9 @@
 
 /*para desktop*/
 @media (min-width:700px){
+    .contenedor-swiper{
+        padding-top: 7em;
+    }
     .title-jewlery{
         justify-self: center;
         align-self: center;
@@ -147,8 +151,8 @@
     }
     .swiper {
         margin-top: 0;
-        width: calc(20.6em *1);
-        height: calc(31em *1);
+        width: calc(20.6em *1.1);
+        height: calc(31em *1.1);
     }
     .swiper-button-next{
         grid-column: 2/3;
@@ -167,6 +171,13 @@
     .swiper-pagination{
         width: 50%;
         margin-top: .7em;
+    }
+}
+@media (min-width:2000px){
+    .swiper {
+        margin-top: 0;
+        width: calc(20.6em *1.5);
+        height: calc(31em *1.5);
     }
 }
 

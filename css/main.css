@@ -43,8 +43,6 @@ body {
 
 /*TOP BAR*/
 .containter-topbar {
-  -webkit-backdrop-filter: blur(10px);
-          backdrop-filter: blur(10px);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -57,6 +55,7 @@ body {
   padding-top: 10%;
   position: fixed;
   width: 100%;
+  z-index: 5;
 }
 
 .logo-img {
@@ -91,8 +90,6 @@ body {
   margin-right: 4em;
   border-radius: 8px;
   cursor: pointer;
-  -webkit-backdrop-filter: blur(10px);
-          backdrop-filter: blur(10px);
   border: 1px solid black;
   /* border-radius: 12px; */
   margin-left: -130%;
@@ -131,8 +128,6 @@ body {
   overflow: hidden;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
-  -webkit-backdrop-filter: blur(10px);
-          backdrop-filter: blur(10px);
   list-style: none;
   padding: 0;
   margin: 0;
@@ -234,6 +229,7 @@ body {
   -ms-grid-rows: 0.3fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 0.3fr 1fr 1fr 1fr 1fr;
   font-family: PP Hatton;
+  padding-top: 8em;
 }
 
 .contenedor-swiper > *:nth-child(1) {
@@ -414,6 +410,10 @@ body {
 
 /*para desktop*/
 @media (min-width: 700px) {
+  .contenedor-swiper {
+    padding-top: 7em;
+  }
+
   .title-jewlery {
     -ms-grid-column-align: center;
         justify-self: center;
@@ -436,8 +436,8 @@ body {
 
   .swiper {
     margin-top: 0;
-    width: calc(20.6em *1);
-    height: calc(31em *1);
+    width: calc(20.6em *1.1);
+    height: calc(31em *1.1);
   }
 
   .swiper-button-next {
@@ -471,6 +471,13 @@ body {
   .swiper-pagination {
     width: 50%;
     margin-top: 0.7em;
+  }
+}
+@media (min-width: 2000px) {
+  .swiper {
+    margin-top: 0;
+    width: calc(20.6em *1.5);
+    height: calc(31em *1.5);
   }
 }
 .grid-shop {
@@ -541,4 +548,9 @@ body {
 }
 .product__price {
   margin-top: 10px;
+}
+
+.filter-blur {
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
 }

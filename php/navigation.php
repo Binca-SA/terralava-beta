@@ -1,4 +1,4 @@
-<div class="containter-topbar">
+<div class="containter-topbar filter-blur">
         <nav class="main-nav">
             <button id="btnMenu" class="nav-bar">
                 <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -8,8 +8,8 @@
                     <desc>icon button menu for mobile</desc>
                 </svg>
             </button> 
-            <ul class="menu" id="menu">
-                <!-- <li class="menu__item"><a href="" class="menu__link">Home</a></li> -->
+            <ul class="menu filter-blur" id="menu">
+                <!-- <li class="menu__item filter-blur"><a href="" class="menu__link">Home</a></li> -->
                 <li class=" container-submenu">
                     <a href="#" class="menu__link submenu-btn ">Joyas<svg class="arrow__icon" width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path class="arrow__icon" d="M3 22L24 44.5L45 22" stroke="black" stroke-linecap="round"/>
@@ -17,16 +17,16 @@
                         <desc>arrow icon for submenu button</desc>
                         </svg>
                     </a>
-                    <ul class="submenu">
-                        <li class="menu__item"><a href="" class="menu__link">Collares</a></li>
-                        <li class="menu__item"><a href="" class="menu__link">Anillos</a></li>
-                        <li class="menu__item"><a href="" class="menu__link">Pulseras</a></li>
-                        <li class="menu__item"><a href="" class="menu__link">Pendientes</a></li>
+                    <ul class="submenu filter-blur ">
+                        <li class="menu__item filter-blur"><a href="" class="menu__link">Collares</a></li>
+                        <li class="menu__item filter-blur"><a href="" class="menu__link">Anillos</a></li>
+                        <li class="menu__item filter-blur"><a href="" class="menu__link">Pulseras</a></li>
+                        <li class="menu__item filter-blur"><a href="" class="menu__link">Pendientes</a></li>
                     </ul>
                 </li>
-                <li class="menu__item"><a href="#" class="menu__link">Test Mi Joya Perfecta</a></li>
-                <li class="menu__item"><a href="#" class="menu__link">Sobre las joyas</a></li>
-                <li class="menu__item"><a href="#" class="menu__link">Guía de tallas</a></li>
+                <li class="menu__item filter-blur"><a href="#" class="menu__link">Test Mi Joya Perfecta</a></li>
+                <li class="menu__item filter-blur"><a href="#" class="menu__link">Sobre las joyas</a></li>
+                <li class="menu__item filter-blur"><a href="#" class="menu__link">Guía de tallas</a></li>
             </ul>
         </nav>
 
@@ -46,3 +46,4 @@
             </a>
         </div>
     </div>
+    <script type="module" src="./js/sections/menu.js"></script>
