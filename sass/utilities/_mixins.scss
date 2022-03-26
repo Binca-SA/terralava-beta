@@ -8,3 +8,9 @@
 // @mixin font-headers-mob{
 
 // }
+//mixin h1mob
+@mixin font-h1-mob{
+    font-family: $headers;
+    font-weight: 500;
+    font-size: $h1;
+}

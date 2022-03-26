@@ -1,0 +1,80 @@
+//TEST SECTION//
+/*Introduction - test section*/
+
+.container-header-test{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    &__title-test{
+        font-family: $headers;
+        font-weight: 500;
+        font-size: 4em;
+        text-align: center;
+        
+    }
+    &__start-test{
+        color: $cta-color;
+        font: {
+            size: $h5;
+            weight: bold;
+        }
+        
+        text-decoration: underline;
+        background: none;
+        border: none;
+        display: flex;
+        align-items:center ;
+        justify-content: center;
+        gap: .7em;
+        
+    }
+    &__eye-icon{
+        fill: $cta-color;
+    }
+    &__intro-text{
+        font: {
+            font-weight: light ;
+            size: $p-mob;
+        }
+        padding: {
+            left: $exterior-margen;
+            right: $exterior-margen;
+        }
+        text-align: center;
+        margin-bottom: $margin-questions-test ;
+    }
+}
+
+.form-section{
+    background: $background-test;
+    padding: {
+        left:$exterior-margen;
+        right: $exterior-margen;
+    }
+}
+/*form - test section*/
+.test-form__question{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    &__yes{
+        cursor: pointer;
+    }
+}
+.container-both-questions{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: $molecule-margin;
+    &__container-inputs{
+       border: 1px solid black;
+       border-radius: 4px;
+       width: 124px;
+       height: 124px;
+    }
+    margin-bottom: 700px;
+}
+
+label:focus{
+    background-color: red;
+}
