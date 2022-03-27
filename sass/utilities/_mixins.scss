@@ -14,3 +14,9 @@
     font-weight: 500;
     font-size: $h1;
 }
+@mixin hoverButtons{
+    transition: all .4s ease-in-out;
+    background-color: $cta-color;
+    color: $background-color;
+    border-radius: 8px;
+}

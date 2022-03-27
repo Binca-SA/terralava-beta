@@ -160,6 +160,6 @@
         </div>
     </form>
 </section>
-<a href="./imagenes.html?images=${text}">Ver Resultados</a>
+<!-- <a href="./imagenes.html?images=${text}">Ver Resultados</a> -->
 <button class="button">Resultados</button>
 <script type="module" src="./js/sections/test.js"></script>

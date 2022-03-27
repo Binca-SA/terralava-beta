@@ -3,7 +3,7 @@ const btnFiltro = document.querySelector("#btnFiltro");
 const filtro = document.querySelector("#filtro");
 
 btnFiltro.addEventListener("click", function(){
-    filtro.classList.toggle("mostrar");
+    filtro.classList.toggle("mostrarFiltro");
 });
 
 

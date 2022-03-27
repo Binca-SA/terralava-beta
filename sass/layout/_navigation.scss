@@ -60,10 +60,7 @@
     
     // border-bottom: 1px solid black;
     &:hover{
-        border-radius:8px;
-        transition: all .4s ease-in-out;
-        background-color: #9D0B0B;
-        color: white;
+        @include hoverButtons;
     }
 }
 
