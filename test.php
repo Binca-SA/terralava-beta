@@ -17,23 +17,23 @@
     <form class="test-form" name="joya" action="">
         <div class="test-form__question">
             <p class="number-question">1</p>
-                <svg class="diamond-icon" width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M23.1614 4.70788L4.07389 20.8207C3.49481 21.3096 3.45492 22.1881 3.98731 22.7274L23.0749 42.0628C23.5839 42.5784 24.4161 42.5784 24.9251 42.0628L44.0127 22.7274C44.5451 22.1881 44.5052 21.3096 43.9261 20.8207L24.8386 4.70788C24.3543 4.29906 23.6457 4.29906 23.1614 4.70788Z" fill="black"/>
+                <svg class="diamond-icon" width="40" height="40" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path class="diamond-icon" d="M23.1614 4.70788L4.07389 20.8207C3.49481 21.3096 3.45492 22.1881 3.98731 22.7274L23.0749 42.0628C23.5839 42.5784 24.4161 42.5784 24.9251 42.0628L44.0127 22.7274C44.5451 22.1881 44.5052 21.3096 43.9261 20.8207L24.8386 4.70788C24.3543 4.29906 23.6457 4.29906 23.1614 4.70788Z" fill="black"/>
                 <title>icon-diamond</title>
                 <desc> diamond icon for sthetic use </desc>
             </svg>
             <p class="test-form__question__text">¿Te gusta ponerte joyas que destacan a simple vista?</p>
             <div class="container-both-questions">
                 <div class="container-both-questions__container-inputs">
-                    <label class="test-form__question__yes" for="primera__1">Me gusta que sea una de las cosas que más destacan de mi estilo.
-                        <p>SI</p> 
+                    <label class="test-form__question__yes" for="primera__1"><p>SI</p> 
+                        <p>Me gusta que sea una de las cosas que más destacan de mi estilo.</p>
                         <input id="primera__1" name="primera" type="radio" value="1">
                     </label>
                 </div>
                 <div class="container-both-questions__container-inputs">
-                    <label class="test-form__question__yes" for="primera__2">Prefiero destacar por otras cosas. 
-                        <p>NO</p>
-                        <input id="primera__2"  name="primera" type="radio" value="2">
+                    <label class="test-form__question__yes" for="dos"><p>NO</p>
+                    <p>Prefiero destacar por otras cosas.</p>
+                        <input id="dos"  name="primera" type="radio" value="2">
                     </label>
                 </div>
             </div>
@@ -49,12 +49,16 @@
             <p class="test-form__question__text">¿El color es un elemento importante en tu día a día?</p>
             <div class="container-both-questions">
                 <div class="container-both-questions__container-inputs">
-                    <label class="test-form__question__yes" for=" ">SI Amante de los colores, me dan alegría. </label>
-                    <input name="segunda" type="radio" value="3">
+                    <label class="test-form__question__yes" for="tres"><p>SI</p>
+                    <p>Amante de los colores, me dan alegría.</p> 
+                        <input id="tres" name="segunda" type="radio" value="3">
+                    </label>
                 </div>
                 <div class="container-both-questions__container-inputs">
-                    <label class="test-form__question__yes" for=" ">NO Lo justo y necesario. </label>
-                    <input name="segunda" type="radio" value="4">
+                    <label class="test-form__question__yes" for="cuatro"><p>NO</p>
+                    <p>Lo justo y necesario. </p>
+                        <input id="cuatro"  name="segunda" type="radio" value="4">
+                    </label>
                 </div>
             </div>
         </div>
@@ -69,12 +73,16 @@
             <p class="test-form__question__text">¿Te interesa el mundo de las piedras semipreciosas y sus beneficios y propiedades?</p>
             <div class="container-both-questions">
                 <div class="container-both-questions__container-inputs">
-                    <label class="test-form__question__yes" for=" ">SI Creo que me aportan equilibrio y fuerza en mi día a día.</label>
-                    <input name="tercera" type="radio" value="5">
+                    <label class="test-form__question__yes" for="cinco"><p>SI</p>
+                    <p>Creo que me aportan equilibrio y fuerza en mi día a día</p>
+                        <input id="cinco"  name="tercera" type="radio" value="5">
+                    </label>
                 </div>
                 <div class="container-both-questions__container-inputs">
-                    <label class="test-form__question__yes" for=" ">NO Son bonitas, pero no creo en eso </label>
-                    <input name="tercera" type="radio" value="6">
+                    <label class="test-form__question__yes" for="seis"><p>NO</p>
+                        <p>Son bonitas, pero no creo en eso </p>
+                        <input id="seis" name="tercera" type="radio" value="6">
+                    </label>
                 </div>
             </div>
         </div>
@@ -89,12 +97,16 @@
             <p class="test-form__question__text">¿Te gusta vestir elegante?</p>
             <div class="container-both-questions">
                 <div class="container-both-questions__container-inputs">
-                    <label class="test-form__question__yes" for=" ">SI Lo intento, aunque a veces me gusta no pensar demasiado en qué ponerme.</label>
-                    <input name="cuarta" type="radio" value="7">
+                    <label class="test-form__question__yes" for="primera__7"><p>SI</p>
+                        <p>Lo intento, aunque a veces no me lo pienso demasiado.</p>
+                        <input id="primera__7" name="cuarta" type="radio" value="7">
+                    </label>
                 </div>
                 <div class="container-both-questions__container-inputs">
-                    <label class="test-form__question__yes" for=" ">NO No suelo complicarme mucho.</label>
-                    <input name="cuarta" type="radio" value="8">
+                    <label class="test-form__question__yes" for="primera__8"><p>NO</p>
+                    <p>No suelo complicarme mucho </p>
+                        <input id="primera__8" name="cuarta" type="radio" value="8">
+                    </label>
                 </div>
             </div>
         </div>
@@ -109,12 +121,16 @@
             <p class="test-form__question__text">¿Te cuesta decidirte por algo a la hora de elegir?</p>
             <div class="container-both-questions">
                 <div class="container-both-questions__container-inputs">
-                    <label class="test-form__question__yes" for=" ">SI La mayoría de las veces soy indecisa.</label>
-                    <input name="quinta" type="radio" value="9">
+                    <label class="test-form__question__yes" for="primera__9"><p>SI</p>
+                    <p>La mayoría de las veces soy indecisa.</p>
+                        <input id="primera__9" name="quinta" type="radio" value="9">
+                    </label>
                 </div>
                 <div class="container-both-questions__container-inputs">
-                    <label class="test-form__question__yes" for=" ">NO Normalmente suelo tener muy claro que quiero.</label>
-                    <input name="quinta" type="radio" value="10">
+                    <label class="test-form__question__yes" for="primera__10"><p>NO</p>
+                    <p>Normalmente suelo tener muy claro que quiero.</p>
+                        <input id="primera__10" name="quinta" type="radio" value="10">
+                    </label>
                 </div>
             </div>
         </div>
@@ -129,12 +145,16 @@
             <p class="test-form__question__text">¿Te gusta probar cosas nuevas en tus looks?</p>
             <div class="container-both-questions">
                 <div class="container-both-questions__container-inputs">
-                    <label class="test-form__question__yes" for=" ">SI Me gusta arriesgarme.</label>
-                    <input name="sexta" type="radio" value="11">
+                    <label class="test-form__question__yes" for="primera__11"><p>SI</p>
+                    <p>Me gusta arriesgarme.</p>
+                        <input id="primera__11" name="sexta" type="radio" value="11">
+                    </label>
                 </div>
                 <div class="container-both-questions__container-inputs">
-                    <label class="test-form__question__yes" for=" ">NO Más vale prevenir que curar.</label>
-                    <input name="sexta" type="radio" value="12">
+                    <label class="test-form__question__yes" for="primera__12"><p>NO</p>
+                    <p>Más vale prevenir que curar.</p>
+                        <input id="primera__12" name="sexta" type="radio" value="12">
+                    </label>
                 </div>
             </div>
         </div>
@@ -149,17 +169,23 @@
             <p class="test-form__question__text">¿Sueles hacer escapadas a lugares naturales?</p>
             <div class="container-both-questions">
                 <div class="container-both-questions__container-inputs">
-                    <label class="test-form__question__yes" for=" ">SI Necesito desconectar del ajetreo de la ciudad.</label>
-                    <input name="septima" type="radio" value="13">
+                    <label class="test-form__question__yes" for="primera__13"><p>SI</p> 
+                    <p>Necesito desconectar del ajetreo de la ciudad.</p>
+                        <input id="primera__13" name="septima" type="radio" value="13">
+                    </label>
                 </div>
                 <div class="container-both-questions__container-inputs">
-                    <label class="test-form__question__yes" for=" ">NO Me gusta la naturaleza pero no hago muchas escapadas .</label>
-                    <input name="septima" type="radio" value="14">
+                    <label class="test-form__question__yes" for="primera__14"><p>NO</p> 
+                    <p>Me gusta la naturaleza pero no hago muchas escapadas.</p>
+                        <input id="primera__14" name="septima" type="radio" value="14">
+                    </label>
                 </div>
             </div>
         </div>
+        
     </form>
+    <button class="button">Resultados</button>
 </section>
 <!-- <a href="./imagenes.html?images=${text}">Ver Resultados</a> -->
-<button class="button">Resultados</button>
+
 <script type="module" src="./js/sections/test.js"></script>

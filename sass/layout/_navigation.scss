@@ -1,6 +1,6 @@
 /*TOP BAR*/
 .containter-topbar{
-    // backdrop-filter: blur(10px); 
+    backdrop-filter: blur(10px); 
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -48,6 +48,8 @@
     /* border-radius: 12px; */
     margin-left:-130% ;
     // display: none;
+    background-color: #ffffff01;
+    backdrop-filter:blur(10px) ;
     transition: all .3s ease-in-out;
 }
 
@@ -82,6 +84,11 @@
 }
 
 /*menu secundario*/
+.container-submenu{
+   backdrop-filter:blur(10px) ;
+   border-top-left-radius: 12px;
+   border-top-right-radius: 12px;
+}
 .submenu{
     height: 0;
     overflow: hidden;
@@ -137,9 +144,10 @@
     }
     .menu__link{
         border: none;
+        // backdrop-filter: blur(10px);
     }
     .container-submenu{
-        backdrop-filter: blur(10px);
+        // backdrop-filter: blur(10px);
         &:hover{
             opacity: 1;
             visibility: visible;

@@ -1,0 +1,14 @@
+.resultsTest{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    gap: 2em;
+    
+}
+.img-resultTest{
+    width: 100%;
+    &:nth-of-type(3n){
+        grid-column: span 2;
+    }
+}
+    

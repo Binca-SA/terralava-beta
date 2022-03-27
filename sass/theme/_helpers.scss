@@ -1,6 +1,6 @@
-.filter-blur{
-    backdrop-filter: blur(10px); 
-}
+// .filter-blur{
+//     backdrop-filter: blur(10px); 
+// }
 
 .section-margin{
     padding-top: 7em;
@@ -11,4 +11,10 @@
 }
 .margin-bottom{
     margin-bottom: 80px;
+}
+.margin-left-right{
+    margin: {
+        right: $atom-margin;
+        left:$atom-margin;
+    };
 }

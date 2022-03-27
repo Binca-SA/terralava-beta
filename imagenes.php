@@ -2,7 +2,7 @@
 <?php include('./php/head.php')?>
 <?php include('./php/navigation.php')?>
 
-<div id="main"></div>
+<section class="resultsTest section-margin margin-left-right" id="main"></section>
 
 
 <script type="module" src="./js/sections/imagenes.js"></script>

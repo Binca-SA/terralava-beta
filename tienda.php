@@ -1,7 +1,7 @@
 <?php $title="Joyas Terralava";?>
 <?php include('./php/head.php')?>
 <?php include('./php/navigation.php')?>
-<section class="grid-shop section-margin">
+<section class="grid-shop">
         <div class="container-filter">
             <nav  class="container-filter__filtro-tienda">
                 <button id="btnFiltro" class="container-filter__btn-filtro">FILTRO  
