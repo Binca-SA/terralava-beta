@@ -135,7 +135,7 @@
 /*para desktop*/
 @media (min-width:700px){
     .contenedor-swiper{
-        padding-top: 5em;
+        padding-top: $molecule-margin;
     }
         .title-jewlery{
             justify-self: center;
@@ -189,8 +189,8 @@
     position: absolute;/*position inherit para desktop*/
     margin-top: -6.5em;
     margin: {
-        right: $atom-margin;
-        left:$atom-margin;
+        right: $molecule-margin;
+        left:$molecule-margin;
     };
     &__title{
         text-align: center;
@@ -202,6 +202,7 @@
     }
     &__cta{
         margin-right: 1.7em;
+        font-family: $headers;
     }
 }
 @media (min-width:700px){
@@ -211,14 +212,100 @@
         margin-top: -2em;
         
         &__title{
-            margin-bottom: 0;
             margin: {
-                left: 400px;
-                right: 400px;
+                bottom: 1em;
+                width: 250px;
             }
         }
     }
 }
 /*HOME-SECTION MI JOYA PERFECTA*/
+.section-miJoyaPerfecta{
+    
+    &__image{
+        width: 100%;
+    }
+    &__title{
+        font-family: $headers;
+        font-size:$h3 ;
+        color: white;
+        position: absolute;
+        margin: {
+            top: -8.7em;
+            left: $exterior-margen;
+            right:6.2em;
+        }
+    }
+    &__description{
+        margin: {
+            top:$exterior-margen ;
+            left: $exterior-margen;
+            right: $exterior-margen;
+            bottom: 0;
+        }
+    }
+    &__description-2{
+        margin: $exterior-margen;
+    }
+    &__cta{
+        margin-left: $exterior-margen;
+        font-family: $headers;
+    }
+}
 
-
+/*SECTION LINKS TO THE SHOP*/
+.section-linksShop{
+    background-image: url('../images/home/backgroundLinks.webp');
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: 160% 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items:center;
+    &__title{
+        display: flex;
+        justify-content: center;
+        font-size:$h5 ;
+        margin-bottom: $atom-margin-desk;
+    }
+    &__container-titleLinks{
+        // position: absolute;
+        display: flex;
+        align-items: center;
+        flex-direction:column;
+        margin: {
+            top:4em;
+            bottom:7em;
+        }
+    }
+    &__container-links{
+        text-underline-offset: 5px;
+        align-self: center;
+        list-style: none;
+        padding: 0;
+        margin-bottom:$atom-margin;
+        display: grid;
+        row-gap: 30px;
+        &__item{
+            place-self: center;
+            justify-content: center;
+            list-style: none;
+            color:black;
+            font-size: $h6;
+            font-family: $headers;
+        }
+        &__links-shop{
+            color: black;
+            &:hover{
+                font-style: italic;
+                color: $cta-color;
+            }
+        }
+    }
+    &__img{
+        width: 70%;
+        position: absolute;
+        z-index:-1;
+    }
+}

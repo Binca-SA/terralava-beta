@@ -2,22 +2,38 @@
 <?php include('./php/head.php')?>
 <div class="section-margin">
     <section class="section-miJoyaPerfecta">
-        <img class="section-miJoyaPerfecta__image" src="" alt="profile model showing earrings">
+        <img class="section-miJoyaPerfecta__image" src="./images/home/homeJoyaPerfecta.webp" alt="profile model showing earrings">
         <h2 class="section-miJoyaPerfecta__title">CADA PERSONA ES DIFERENTE, LAS JOYAS TAMBIÉN</h2>
-        <p class="section-miJoyaPerfecta__description">A veces un accesorio se puede convertir en indispensable y eso se consigue cuando tu personalidad se refleja en el.</p>
-        <p class="section-miJoyaPerfecta__description">Realizando nuestro test seleccionamos al instante las joyas que mejor encajan con tus respuestas</p>
-        <button class="intro-home__cta"> Ver Tienda</button>
+        <p class="section-miJoyaPerfecta__description">A veces un accesorio se puede convertir en <b>indispensable</b> y eso se consigue cuando tu <b>personalidad</b> se <b>refleja</b> en el.</p>
+        <p class="section-miJoyaPerfecta__description-2">Realizando nuestro test seleccionamos al instante las joyas que mejor encajan con tus respuestas</p>
+        <button class="section-miJoyaPerfecta__cta cta-buttoms"> 
+            <svg width="25" height="25" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0_341_45)">
+                <path d="M17.064 43.336C28.008 34.984 33.864 31.144 45.192 24.04C33.864 16.936 28.008 13.096 17.064 4.744L13.8 9.544C25.128 16.072 29.544 18.568 40.488 24.04C29.544 29.512 25.128 32.008 13.8 38.536L17.064 43.336Z" fill="#9D0B0B"/>
+                </g>
+                <defs>
+                <clipPath id="clip0_341_45">
+                <rect width="48" height="48" fill="white"/>
+                </clipPath>
+                </defs>
+            </svg>Ver Tienda
+        </button>
     </section>
 
-    <section class="section-linksShop">
+    <section class="section-margin-top">
         <p class="section-linksShop__title">NUESTRAS CATEGORÍAS</p>
-        <ul class="section-linksShop__container-links">
-            <li class="section-linksShop__container-links__item"><a class="section-linksShop__container-links__links-shop" href="">Collares</a></li>
-            <li class="section-linksShop__container-links__item"><a class="section-linksShop__container-links__links-shop" href="">Anillos</a></li>
-            <li class="section-linksShop__container-links__item"><a class="section-linksShop__container-links__links-shop" href="">Pulseras</a></li>
-            <li class="section-linksShop__container-links__item"><a class="section-linksShop__container-links__links-shop" href="">Pendientes</a></li>
-        </ul>
+        <div class="section-linksShop">
+            <div class="section-linksShop__container-titleLinks"> 
+                <ul class="section-linksShop__container-links">
+                    <li class="section-linksShop__container-links__item"><a class="section-linksShop__container-links__links-shop" href="">Collares</a></li>
+                    <li class="section-linksShop__container-links__item"><a class="section-linksShop__container-links__links-shop" href="">Anillos</a></li>
+                    <li class="section-linksShop__container-links__item"><a class="section-linksShop__container-links__links-shop" href="">Pulseras</a></li>
+                    <li class="section-linksShop__container-links__item"><a class="section-linksShop__container-links__links-shop" href="">Pendientes</a></li>
+                </ul>
+            </div>
+        </div>
     </section>
+    <!-- <img class="section-linksShop__img" src="./images/home/backgroundLinks.webp" alt="hand with rings holding a flower"> -->
 
     <section class="section-values">
         <h3 class="section-values__title">PENSAMOS EN CADA DETALLE</h3>
