@@ -1,0 +1,17 @@
+.cta-buttoms{
+    color: $cta-color;
+        font: {
+            size: 18px;
+            weight: medium;
+        }
+        letter-spacing: .1em;
+        text-decoration: underline;
+        background: none;
+        border: none;
+        display: flex;
+        align-items:center ;
+        justify-content: center;
+        gap: .7em;
+        padding: 0;
+        cursor: pointer;
+}

@@ -54,6 +54,9 @@ body {
           flex-direction: row;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   padding-top: 10%;
   position: fixed;
   width: 100%;
@@ -205,6 +208,28 @@ body {
     margin-left: 0 auto;
   }
 }
+.cta-buttoms {
+  color: #9D0B0B;
+  font-size: 18px;
+  font-weight: medium;
+  letter-spacing: 0.1em;
+  text-decoration: underline;
+  background: none;
+  border: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 0.7em;
+  padding: 0;
+  cursor: pointer;
+}
+
 /*SLIDER*/
 .title-jewlery {
   z-index: 2;
@@ -237,7 +262,7 @@ body {
   -ms-grid-rows: 0.3fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 0.3fr 1fr 1fr 1fr 1fr;
   font-family: PP Hatton;
-  padding-top: 8em;
+  padding-top: 4em;
 }
 
 .contenedor-swiper > *:nth-child(1) {
@@ -419,7 +444,7 @@ body {
 /*para desktop*/
 @media (min-width: 700px) {
   .contenedor-swiper {
-    padding-top: 7em;
+    padding-top: 5em;
   }
 
   .title-jewlery {
@@ -429,7 +454,7 @@ body {
         -ms-grid-row-align: center;
         align-self: center;
     margin: 0;
-    margin-right: 8em;
+    margin-right: 6em;
   }
 
   .subtitle-jewlery {
@@ -439,13 +464,13 @@ body {
         -ms-grid-row-align: center;
         align-self: center;
     margin: 0;
-    margin-left: 6.8em;
+    margin-left: 5.8em;
   }
 
   .swiper {
     margin-top: 0;
-    width: calc(20.6em *1.1);
-    height: calc(31em *1.1);
+    width: calc(20.6em *.8);
+    height: calc(31em *.8);
   }
 
   .swiper-button-next {
@@ -488,6 +513,51 @@ body {
     height: calc(31em *1.5);
   }
 }
+/*HOME-CTA INTRO*/
+.intro-home {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: absolute;
+  /*position inherit para desktop*/
+  margin-top: -6.5em;
+  margin-right: 1.2em;
+  margin-left: 1.2em;
+}
+.intro-home__title {
+  text-align: center;
+  line-height: 140%;
+  font-size: 16px;
+  letter-spacing: 0.08em;
+  font-family: PP Hatton;
+}
+.intro-home__cta {
+  margin-right: 1.7em;
+}
+
+@media (min-width: 700px) {
+  .intro-home {
+    position: inherit;
+    font-size: 38px;
+    margin-top: -2em;
+  }
+  .intro-home__title {
+    margin-bottom: 0;
+    margin-left: 400px;
+    margin-right: 400px;
+  }
+}
+/*HOME-SECTION MI JOYA PERFECTA*/
 .grid-shop {
   margin-right: 1.2em;
   margin-left: 1.2em;
@@ -672,9 +742,6 @@ body {
           justify-content: center;
   gap: 0.7em;
 }
-.container-header-test__eye-icon {
-  fill: #9D0B0B;
-}
 .container-header-test__intro-text {
   font-font-weight: light;
   font-size: 14px;
@@ -780,4 +847,9 @@ body {
 .margin-left-right {
   margin-right: 1.2em;
   margin-left: 1.2em;
+}
+
+.exterior-margin {
+  margin-left: 45px;
+  margin-right: 45px;
 }

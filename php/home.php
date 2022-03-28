@@ -1,11 +1,6 @@
 <?php $title="Terralava";?>
 <?php include('./php/head.php')?>
-<body>
-    <section class="intro-home"></section>
-        <h4 class="intro-home__title">JOYAS QUE RECARGAN TUS DÍAS CON LUZ, ENERGÍA Y PASIÓN</h4>
-        <button class="intro-home__cta"> Ver Tienda</button>
-    </section>
-
+<div class="section-margin">
     <section class="section-miJoyaPerfecta">
         <img class="section-miJoyaPerfecta__image" src="" alt="profile model showing earrings">
         <h2 class="section-miJoyaPerfecta__title">CADA PERSONA ES DIFERENTE, LAS JOYAS TAMBIÉN</h2>
@@ -60,7 +55,5 @@
         <h3 class="section-sizeGuide__title">GUÍA DE TALLAS</h3>
         <img class="section-sizeGuide__img" src="" alt="palm of the hand with ring on the index finger">
         <img class="section-sizeGuide__title__imgRing src="" alt="graphic drawing, indicates internal diameter of a ring">
-        
     </section>
-</body>
-</html>
+</div>
