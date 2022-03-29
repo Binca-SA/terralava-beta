@@ -49,8 +49,8 @@
     /* border-radius: 12px; */
     margin-left:-130% ;
     // display: none;
-    background-color: #ffffff01;
-    backdrop-filter:blur(10px) ;
+    // background: #ffffff01;
+    // backdrop-filter:blur(10px) ;
     transition: all .3s ease-in-out;
 }
 
@@ -89,12 +89,14 @@
     backdrop-filter:blur(10px) ;
     border-top-left-radius: 12px;
     border-top-right-radius: 12px;
+    background: #ffffff01;
+    // backdrop-filter:blur(10px) ;
 }
 .submenu{
     height: 0;
     overflow: hidden;
     transition: all .3s;
-    // backdrop-filter: blur(10px); 
+    backdrop-filter: blur(10px); 
     list-style: none;
     padding: 0;
     margin: 0;

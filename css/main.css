@@ -98,9 +98,6 @@ body {
   border: 1px solid black;
   /* border-radius: 12px; */
   margin-left: -130%;
-  background-color: #ffffff01;
-  -webkit-backdrop-filter: blur(10px);
-          backdrop-filter: blur(10px);
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
@@ -136,6 +133,7 @@ body {
           backdrop-filter: blur(10px);
   border-top-left-radius: 12px;
   border-top-right-radius: 12px;
+  background: #ffffff01;
 }
 
 .submenu {
@@ -143,6 +141,8 @@ body {
   overflow: hidden;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
   list-style: none;
   padding: 0;
   margin: 0;
@@ -444,7 +444,7 @@ body {
 }
 
 /*para desktop*/
-@media (min-width: 700px) {
+@media (min-width: 650px) {
   .contenedor-swiper {
     padding-top: 4em;
   }
@@ -556,7 +556,12 @@ body {
   }
   .intro-home__title {
     margin-bottom: 1em;
-    margin-width: 250px;
+    width: 250px;
+  }
+}
+@media (min-width: 2000px) {
+  .intro-home__title {
+    width: 433px;
   }
 }
 /*HOME-SECTION MI JOYA PERFECTA*/
@@ -568,7 +573,7 @@ body {
   font-size: 30px;
   color: white;
   position: absolute;
-  margin-top: -8.7em;
+  margin-top: -10em;
   margin-left: 45px;
   margin-right: 6.2em;
 }
@@ -589,9 +594,11 @@ body {
 /*SECTION LINKS TO THE SHOP*/
 .section-linksShop {
   background-image: url("../images/home/backgroundLinks.webp");
-  background-size: 70%;
   background-repeat: no-repeat;
-  background-position: 160% 0;
+  background-size: contain;
+  background-position: 125px 0;
+  -o-object-fit: contain;
+     object-fit: contain;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -628,12 +635,13 @@ body {
       -ms-flex-direction: column;
           flex-direction: column;
   margin-top: 4em;
-  margin-bottom: 7em;
+  margin-bottom: 4em;
 }
 .section-linksShop__container-links {
   text-underline-offset: 5px;
-  -ms-grid-row-align: center;
-      align-self: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   list-style: none;
   padding: 0;
   margin-bottom: 1.2em;
@@ -666,6 +674,68 @@ body {
   z-index: -1;
 }
 
+@media (min-width: 700px) {
+  .section-miJoyaPerfecta {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .section-miJoyaPerfecta__image {
+    width: 40%;
+    height: auto;
+  }
+  .section-miJoyaPerfecta__title {
+    color: black;
+    position: inherit;
+    margin-top: 0;
+    margin-right: 3em;
+    width: 550px;
+  }
+  .section-miJoyaPerfecta__description {
+    margin-left: 128px;
+    width: 500px;
+    -ms-flex-item-align: end;
+        -ms-grid-row-align: end;
+        align-self: end;
+  }
+  .section-miJoyaPerfecta__description-2 {
+    margin-top: 20px;
+    width: 500px;
+    margin-left: 128px;
+    margin-bottom: 0;
+    -ms-flex-item-align: end;
+        -ms-grid-row-align: end;
+        align-self: end;
+  }
+  .section-miJoyaPerfecta__cta {
+    -ms-flex-item-align: end;
+        align-self: flex-end;
+    -ms-grid-column-align: start;
+        justify-self: start;
+  }
+
+  .container-text {
+    display: -ms-grid;
+    display: grid;
+    margin-left: 40px;
+    margin-right: 66px;
+    -ms-grid-rows: 1fr 1fr 0.25fr 0.5fr;
+    grid-template-rows: 1fr 1fr 0.25fr 0.5fr;
+  }
+
+  .section-linksShop {
+    background-position: 445px -557px;
+    background-size: auto;
+  }
+  .section-linksShop__conatiner-links {
+    margin-top: 8em;
+    margin-bottom: 8em;
+  }
+}
 .grid-shop {
   margin-right: 1.2em;
   margin-left: 1.2em;
