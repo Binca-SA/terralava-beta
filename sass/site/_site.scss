@@ -5,6 +5,7 @@ html{
     width: 100%;
     height: 100%;
     font-size: 62.5%;
+    overflow-x: hidden;
 }
 body{
     padding: 0;
@@ -13,4 +14,5 @@ body{
     width: 100%;
     background-color: $background-color;
     @include font-montserrat-mob;
+    overflow-x: hidden;
 }

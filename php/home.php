@@ -1,5 +1,5 @@
 <?php $title="Terralava";?>
-<?php include('./php/head.php')?>
+
 <div class="section-margin">
     <section class="section-miJoyaPerfecta">
         <img class="section-miJoyaPerfecta__image" src="./images/home/homeJoyaPerfecta.webp" alt="profile model showing earrings">
@@ -40,8 +40,8 @@
     <section class="section-values">
         <h3 class="section-values__title">PENSAMOS EN CADA DETALLE</h3>
         <div class="section-values__container-silver">
+            <img class="section-values__container-silver__img" src="./images/home/values1.webp" alt="two models with rings in hand">
             <h5 class="section-values__container-silver__title">SILVER 925</h5>
-            <img class="section-values__container-silver__img" src="" alt="two models with rings in hand">
             <p class="section-values__container-silver__text">Símbolo de lo femenino.
             Según los mitos egipcios, los huesos de los dioses eran de plata, siendo de oro sus carnes. 
             También representa la pureza, la nitidez de conciencia, la franqueza y rectitud.

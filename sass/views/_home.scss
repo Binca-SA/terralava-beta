@@ -313,7 +313,7 @@
         }
     }
     &__img{
-        width: 70%;
+        width: 100%;
         position: absolute;
         z-index:-1;
     }
@@ -325,7 +325,7 @@
         flex-direction: row;
         &__image{
             width: 40%;
-            height: auto;
+            height: 40%;
         }
         &__title{
             color: black;
@@ -333,17 +333,18 @@
             margin: {
                 top: 0;
                 right: 3em;
+                left: 0;
             }
-            width: 550px;
+            // width: 550px;
         }
         &__description{
             margin-left: $section-margin-desk;
-            width: 500px;
+            // width: 500px;
             align-self:end ;
         }
         &__description-2{
             margin-top: $atom-margin-desk;
-            width: 500px;
+            // width: 500px;
             margin-left: $section-margin-desk;
             margin-bottom: 0;
             align-self:end ;
@@ -351,13 +352,15 @@
         &__cta{
             align-self: flex-end;
             justify-self: start;
+            margin-left: 0;
+            margin-top: 1em;
         }
     }
     .container-text{
         display:grid;
         margin-left: $organism-margin;
         margin-right: $exterior-margen-desk;
-        grid-template-rows: 1fr 1fr .25fr .5fr;
+        grid-template-rows: 1fr .25fr .25fr .25fr;
     }
     // .section-linksShop{
     //     background-size: 69%;
@@ -372,6 +375,39 @@
                 top: 8em;
                 bottom: 8em;
             }
+        }
+    }
+}
+
+/*SECTION VALUES*/
+.section-values{
+    &__title{
+        font-family: $headers;
+        font-size:$h3 ;
+        margin: {
+            left: $exterior-margen;
+            right: $exterior-margen;
+        }
+        width: 240px;
+        line-height: 145.5%;
+    }
+    &__container-silver{
+        &__title{
+            font-family: $headers;
+            font-size:$p-footer-desk; 
+            margin-left: $exterior-margen;
+        }
+        &__img{
+            width: 80%;
+            margin-left: 0;
+            margin-right: $exterior-margen;
+        }
+        &__text{
+            margin: {
+                left:$exterior-margen ;
+                right: $exterior-margen;
+            }
+            font-size:$h5 ;
         }
     }
 }

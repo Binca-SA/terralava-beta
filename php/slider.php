@@ -1,5 +1,4 @@
 <?php $title="Slider";?>
-<?php include('./php/head.php')?>
 
     <section class="contenedor-swiper">
         <h1 class="title-jewlery">Terralava</h1>
