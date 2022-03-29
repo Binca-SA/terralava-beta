@@ -1,6 +1,7 @@
 <?php $title="Resultado de Mi Joya Perfecta";?>
-<?php include('./php/head.php')?>
-<?php include('./php/navigation.php')?>
+<?php $path="../";?>
+<?php include($path .'php/head.php')?>
+<?php include($path .'php/navigation.php')?>
 
 <section class="resultsTest section-margin exterior-margin" id="main"></section>
 <button class="cta-buttoms">
@@ -17,4 +18,4 @@
     Ver Todos Los Productos
 </button>
 
-<script type="module" src="./js/sections/imagenes.js"></script>
+<script type="module" src="<?php echo $path; ?>js/sections/imagenes.js"></script>

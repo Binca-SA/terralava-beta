@@ -27,5 +27,5 @@ document.querySelector('.button').addEventListener('click', function(){
 
     // console.log(primeroElemento, segundoElemento);
 
-    window.location = `./imagenes.php?images=${text}`
+    window.location = `../resultados/?images=${text}`
 });

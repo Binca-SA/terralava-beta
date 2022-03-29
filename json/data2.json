@@ -6,7 +6,7 @@
     "descripcion": "Flor de Lotus en plata de ley 925",
     "precio":"28 €",
     "piedra":false,
-    "imagen":"./images/tienda/collares/lalla.webp",
+    "imagen":"../images/tienda/collares/lalla.webp",
     "estilo":"boho",
     "llamativa":true
     },
@@ -18,7 +18,7 @@
         "descripcion": "Collar de piedra amazonita. Potencia la libertad e independenciad de quien la lleva. Te aportará fortaleza mental y claridad. Tiene propiedades calmantes en situaciones de estrés, ayuda a la creatividad ayudando a expresarnos.",
         "precio": "31.50 €",
         "piedra":true,
-        "imagen":"./images/tienda/collares/braedenAmazonita.webp",
+        "imagen":"../images/tienda/collares/braedenAmazonita.webp",
         "estilo":"chic",
         "llamativa":false
     },
@@ -31,7 +31,7 @@
         "descripcion": "Colgante con turquesa natural. La turquesa te ofrece bienestar al cuerpo y espíritu, considerada como amuleto desde tiempos remotos.",
         "precio": "22 €",
         "piedra":true, 
-        "imagen":"./images/tienda/collares/alleneTurquesa.webp",
+        "imagen":"../images/tienda/collares/alleneTurquesa.webp",
         "estilo":"boho",
         "llamativa":true
     },
@@ -44,7 +44,7 @@
         "descripcion": "Brújula en plata de ley 925.",
         "precio": "25 €",
         "piedra":false, 
-        "imagen":"./images/tienda/collares/estel.webp",
+        "imagen":"../images/tienda/collares/estel.webp",
         "estilo":"boho",
         "llamativa":false
     },
@@ -56,7 +56,7 @@
         "descripcion": "Colgante con piedra de concha. Actúa como regulador del estado de ánimo: calmar la ansiedad, la ira, la tensión y los cambios de humor.",
         "precio": "22 €",
         "piedra":true, 
-        "imagen":"./images/tienda/collares/allene.webp",
+        "imagen":"../images/tienda/collares/allene.webp",
         "estilo":"chic",
         "llamativa":true
     },
@@ -68,7 +68,7 @@
         "descripcion": "Cadena de plata de primera ley 925.",
         "precio": "20 €",
         "piedra":false, 
-        "imagen":"./images/tienda/collares/cäit.webp",
+        "imagen":"../images/tienda/collares/cäit.webp",
         "estilo":"chic",
         "llamativa":false
     },
@@ -80,7 +80,7 @@
         "descripcion": "Cadena de plata de primera ley 925.",
         "precio": "30 €",
         "piedra":false, 
-        "imagen":"./images/tienda/collares/dairine.webp",
+        "imagen":"../images/tienda/collares/dairine.webp",
         "estilo":"chic",
         "llamativa":false
     },
@@ -92,7 +92,7 @@
         "descripcion": "Collar escarabajos de plata de primera ley 925.",
         "precio": "20 €",
         "piedra":false, 
-        "imagen":"./images/tienda/collares/elish.webp",
+        "imagen":"../images/tienda/collares/elish.webp",
         "estilo":"chic",
         "llamativa":false
     },
@@ -104,7 +104,7 @@
         "descripcion": "Collar con estrella en el centro de plata de primera ley 925.",
         "precio": "28 €",
         "piedra":false, 
-        "imagen":"./images/tienda/collares/eneida.webp",
+        "imagen":"../images/tienda/collares/eneida.webp",
         "estilo":"chic",
         "llamativa":false
     },
@@ -116,7 +116,7 @@
         "descripcion": "Pendientes de playa de primera ley 925 para el lóbulo superior de la oreja.",
         "precio": "12 €",
         "piedra":false, 
-        "imagen":"./images/tienda/pendientes/naeli.webp",
+        "imagen":"../images/tienda/pendientes/naeli.webp",
         "estilo":"chic",
         "llamativa":false
     },
@@ -128,7 +128,7 @@
         "descripcion": "Pendientes de playa de primera ley 925 con detalles florales en su interior.",
         "precio": "19.50 €",
         "piedra":false, 
-        "imagen":"./images/tienda/pendientes/maeve.webp",
+        "imagen":"../images/tienda/pendientes/maeve.webp",
         "estilo":"boho",
         "llamativa":false
     },
@@ -140,7 +140,7 @@
         "descripcion": "Pendientes con turquesa. La turquesa te ofrece bienestar al cuerpo y espíritu, considerada como amuleto desde tiempos remotos.",
         "precio": "18 €",
         "piedra":true, 
-        "imagen":"./images/tienda/pendientes/naal.webp",
+        "imagen":"../images/tienda/pendientes/naal.webp",
         "estilo":"boho",
         "llamativa":true
     },
@@ -152,7 +152,7 @@
         "descripcion": "Pendientes colgantes de plata de primera ley 925. ",
         "precio": "14 €",
         "piedra":false, 
-        "imagen":"./images/tienda/pendientes/miriel.webp",
+        "imagen":"../images/tienda/pendientes/miriel.webp",
         "estilo":"chic",
         "llamativa":true
     },
@@ -164,7 +164,7 @@
         "descripcion": "Pendientes de plata de primera ley 925. ",
         "precio": "20 €",
         "piedra":false, 
-        "imagen":"./images/tienda/pendientes/isla.webp",
+        "imagen":"../images/tienda/pendientes/isla.webp",
         "estilo":"chic",
         "llamativa":false
     },
@@ -176,7 +176,7 @@
         "descripcion": "Pendientes colgantes de plata de primera ley 925. ",
         "precio": "27 €",
         "piedra":false, 
-        "imagen":"./images/tienda/pendientes/aldara.webp",
+        "imagen":"../images/tienda/pendientes/aldara.webp",
         "estilo":"boho",
         "llamativa":false
     },
@@ -188,7 +188,7 @@
         "descripcion": "Pendientes con forma de ojo de plata de primera ley 925. ",
         "precio": "27 €",
         "piedra":false, 
-        "imagen":"./images/tienda/pendientes/eire.webp",
+        "imagen":"../images/tienda/pendientes/eire.webp",
         "estilo":"boho",
         "llamativa":false
     },
@@ -200,7 +200,7 @@
         "descripcion": "Anillo de plata de primera ley con piedra lunar. Esta piedra ayuda a relajar la mente y el cuerpo. También ayuda a dominar la ansiedad y emociones fuertes para expresarte mejor. Símbolo de esperanza es una piedra muy usada en la India. ",
         "precio": "44 €",
         "piedra":true, 
-        "imagen":"./images/tienda/anillos/bonnie.webp",
+        "imagen":"../images/tienda/anillos/bonnie.webp",
         "estilo":"boho",
         "llamativa":false
     },
@@ -212,7 +212,7 @@
         "descripcion": "Anillo de plata de primera ley con piedra ónix. Es una piedra espiritual muy popular, te aporta protección. Absorbe las energías negativas convirtiéndolas en positivas. También se cree que ayuda al desarrollo físico y mental.  ",
         "precio": "44 €",
         "piedra":true, 
-        "imagen":"./images/tienda/anillos/onyx.webp",
+        "imagen":"../images/tienda/anillos/onyx.webp",
         "estilo":"boho",
         "llamativa":false
     },
@@ -224,7 +224,7 @@
         "descripcion": "Anillo de plata de primera ley con diseño minimalista",
         "precio": "33 €",
         "piedra":false, 
-        "imagen":"./images/tienda/anillos/casey.webp",
+        "imagen":"../images/tienda/anillos/casey.webp",
         "estilo":"chic",
         "llamativa":false
     },
@@ -236,7 +236,7 @@
         "descripcion": "Anillo de plata de primera ley con piedra lunar.",
         "precio": "23 €",
         "piedra":true, 
-        "imagen":"./images/tienda/anillos/dian.webp",
+        "imagen":"../images/tienda/anillos/dian.webp",
         "estilo":"chic",
         "llamativa":false
     },
@@ -248,7 +248,7 @@
         "descripcion": "Anillo de plata de primera ley con piedra lunar.",
         "precio": "44 €",
         "piedra":true, 
-        "imagen":"./images/tienda/anillos/effie.webp",
+        "imagen":"../images/tienda/anillos/effie.webp",
         "estilo":"boho",
         "llamativa":true
     },
@@ -260,7 +260,7 @@
         "descripcion": "Anillo de plata de primera ley.",
         "precio": "28.50 €",
         "piedra":false, 
-        "imagen":"./images/tienda/anillos/glen.webp",
+        "imagen":"../images/tienda/anillos/glen.webp",
         "estilo":"chic",
         "llamativa":false
     },
@@ -272,7 +272,7 @@
         "descripcion": "Anillo de plata de primera ley con diseño de cabezas de serpeinte.",
         "precio": "23 €",
         "piedra":false, 
-        "imagen":"./images/tienda/anillos/hal.webp",
+        "imagen":"../images/tienda/anillos/hal.webp",
         "estilo":"chic",
         "llamativa":false
     },
@@ -284,7 +284,7 @@
         "descripcion": "Anillo de plata de primera ley con diseño floral.",
         "precio": "23 €",
         "piedra":false, 
-        "imagen":"./images/tienda/anillos/eru.webp",
+        "imagen":"../images/tienda/anillos/eru.webp",
         "estilo":"boho",
         "llamativa":false
     },
@@ -296,7 +296,7 @@
         "descripcion": "Pulsera elástica de plata de primera ley con piedra de ojo de tigre. La piedra del ojo de tigre es considerada la piedra de la libertad. Carga de nergía positiva, protege frente a las malas vibraciones y ayuda con mantener el equilibrio de las emociones como el miedo, la ansiedad o la toma de decisiones. Muy utilizada durante siglos en la medicicina tradicional china",
         "precio": "27 €",
         "piedra":true, 
-        "imagen":"./images/tienda/pulseras/alanis.webp",
+        "imagen":"../images/tienda/pulseras/alanis.webp",
         "estilo":"boho",
         "llamativa":false
     },
@@ -308,7 +308,7 @@
         "descripcion": "Pulsera elástica de plata de primera ley.",
         "precio": "27 €",
         "piedra":true, 
-        "imagen":"./images/tienda/pulseras/alda.webp",
+        "imagen":"../images/tienda/pulseras/alda.webp",
         "estilo":"boho",
         "llamativa":false
     },
@@ -320,7 +320,7 @@
         "descripcion": "Pulsera elástica de plata de primera ley con piedra de Onyx. Es una piedra espiritual muy popular, te aporta protección. Absorbe las energías negativas convirtiéndolas en positivas. También se cree que ayuda al desarrollo físico y mental.",
         "precio": "37.50 €",
         "piedra":true, 
-        "imagen":"./images/tienda/pulseras/sionn.webp",
+        "imagen":"../images/tienda/pulseras/sionn.webp",
         "estilo":"boho",
         "llamativa":false
     },
@@ -332,7 +332,7 @@
         "descripcion": "Pulsera elástica de plata de primera ley con piedra azurita turquesa. Se conoce a la azurita como l apiedra que guia en el desarrollo psíquico e intuitivo.",
         "precio": "27 €",
         "piedra":true, 
-        "imagen":"./images/tienda/pulseras/myra.webp",
+        "imagen":"../images/tienda/pulseras/myra.webp",
         "estilo":"boho",
         "llamativa":false
     },
@@ -344,7 +344,7 @@
         "descripcion": "Pulsera elástica de plata de primera ley con jade verde. Esta piedra simboliza la pureza, serenidad y sabiduría. Es considerada piedra medicinal y está muy ligada al amor y armonía",
         "precio": "23 €",
         "piedra":true, 
-        "imagen":"./images/tienda/pulseras/oona.webp",
+        "imagen":"../images/tienda/pulseras/oona.webp",
         "estilo":"boho",
         "llamativa":false
     }

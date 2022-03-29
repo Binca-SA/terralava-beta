@@ -18,21 +18,22 @@
                         </svg>
                     </a>
                     <ul class="submenu  ">
+                    <li class="menu__item "><a href="<?php echo $path; ?>tienda" class="menu__link">Tienda</a></li>
                         <li class="menu__item "><a href="" class="menu__link">Collares</a></li>
                         <li class="menu__item "><a href="" class="menu__link">Anillos</a></li>
                         <li class="menu__item "><a href="" class="menu__link">Pulseras</a></li>
                         <li class="menu__item "><a href="" class="menu__link">Pendientes</a></li>
                     </ul>
                 </li>
-                <li class="menu__item "><a href="#" class="menu__link">Test Mi Joya Perfecta</a></li>
-                <li class="menu__item "><a href="#" class="menu__link">Sobre las joyas</a></li>
-                <li class="menu__item "><a href="#" class="menu__link">Guía de tallas</a></li>
+                <li class="menu__item "><a href="<?php echo $path; ?>test" class="menu__link">Test Mi Joya Perfecta</a></li>
+                <li class="menu__item "><a href="<?php echo $path; ?>#sobre-las-joyas" class="menu__link">Sobre las joyas</a></li>
+                <li class="menu__item "><a href="<?php echo $path; ?>#guia-de-tallas" class="menu__link">Guía de tallas</a></li>
             </ul>
         </nav>
 
         <div class="container-logo">
-            <a href="#">
-                <img class="logo-img" src="./images/logo/terralava-logo.png" alt="main logo of the jewelry store, when you click it takes you to the home">
+            <a href="<?php echo $path; ?>">
+                <img class="logo-img" src="<?php echo $path; ?>images/logo/terralava-logo.png" alt="main logo of the jewelry store, when you click it takes you to the home">
             </a>
         </div>
 
@@ -46,4 +47,4 @@
             </a>
         </div>
     </div>
-    <script type="module" src="./js/sections/menu.js"></script>
+    <script type="module" src="<?php echo $path; ?>js/sections/menu.js"></script>

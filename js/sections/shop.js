@@ -35,7 +35,7 @@ let joyas = []
 
 function redenrizarProductos() {    
     //IMPRESION PRODUCTOS//
-    const urlJoyeria = './json/data2.json';
+    const urlJoyeria = '../json/data2.json';
     axios.get(urlJoyeria)
         .then(function (response) { 
             joyas = response.data;

@@ -2,7 +2,7 @@
 
 <div class="section-margin">
     <section class="section-miJoyaPerfecta">
-        <img class="section-miJoyaPerfecta__image" src="./images/home/homeJoyaPerfecta.webp" alt="profile model showing earrings">
+        <img class="section-miJoyaPerfecta__image" src="<?php echo $path; ?>images/home/homeJoyaPerfecta.webp" alt="profile model showing earrings">
         <div class="container-text">
             <h2 class="section-miJoyaPerfecta__title">CADA PERSONA ES DIFERENTE, LAS JOYAS TAMBIÉN</h2>
             <p class="section-miJoyaPerfecta__description">A veces un accesorio se puede convertir en <b>indispensable</b> y eso se consigue cuando tu <b>personalidad</b> se <b>refleja</b> en el.</p>
@@ -35,12 +35,12 @@
             </div>
         </div>
     </section>
-    <!-- <img class="section-linksShop__img" src="./images/home/backgroundLinks.webp" alt="hand with rings holding a flower"> -->
+    <!-- <img class="section-linksShop__img" src="<?php echo $path; ?>images/home/backgroundLinks.webp" alt="hand with rings holding a flower"> -->
 
-    <section class="section-values">
+    <section id="sobre-las-joyas" class="section-values">
         <h3 class="section-values__title">PENSAMOS EN CADA DETALLE</h3>
         <div class="section-values__container-silver">
-            <img class="section-values__container-silver__img" src="./images/home/values1.webp" alt="two models with rings in hand">
+            <img class="section-values__container-silver__img" src="<?php echo $path; ?>images/home/values1.webp" alt="two models with rings in hand">
             <h5 class="section-values__container-silver__title">SILVER 925</h5>
             <p class="section-values__container-silver__text">Símbolo de lo femenino.
             Según los mitos egipcios, los huesos de los dioses eran de plata, siendo de oro sus carnes. 
@@ -69,7 +69,7 @@
         <button class="intro-home__cta"> Ver Tienda</button>
     </section>
 
-    <section class="section-sizeGuide">
+    <section id="guia-de-tallas" class="section-sizeGuide">
         <h3 class="section-sizeGuide__title">GUÍA DE TALLAS</h3>
         <img class="section-sizeGuide__img" src="" alt="palm of the hand with ring on the index finger">
         <img class="section-sizeGuide__title__imgRing src="" alt="graphic drawing, indicates internal diameter of a ring">

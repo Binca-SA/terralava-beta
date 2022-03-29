@@ -1,6 +1,7 @@
 <?php $title="Test Mi Joya Perfecta";?>
-<?php include('./php/head.php')?>
-<?php include('./php/navigation.php')?>
+<?php $path="../";?>
+<?php include($path . 'php/head.php')?>
+<?php include($path . 'php/navigation.php')?>
 <section class="form-section section-margin">
     <div class="container-header-test">
         <h1 class="container-header-test__title-test">Descúbre tu joya perfecta con nuestro test </h1>
@@ -188,4 +189,4 @@
 </section>
 <!-- <a href="./imagenes.html?images=${text}">Ver Resultados</a> -->
 
-<script type="module" src="./js/sections/test.js"></script>
+<script type="module" src="<?php echo $path; ?>js/sections/test.js"></script>
