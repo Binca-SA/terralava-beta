@@ -961,6 +961,34 @@ body {
     font-size: 26px;
   }
 }
+@media (min-width: 700px) {
+  .section-sizeGuide {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .section-sizeGuide__title {
+    font-size: 48px;
+  }
+  .section-sizeGuide__img {
+    width: 600px;
+    height: 600px;
+    margin-left: 0;
+    -ms-flex-item-align: end;
+        align-self: flex-end;
+    -webkit-box-ordinal-group: 0;
+        -ms-flex-order: -1;
+            order: -1;
+    margin-left: -100px;
+  }
+  .section-sizeGuide__container {
+    margin: 0 auto;
+  }
+}
 .grid-shop {
   margin-right: 1.2em;
   margin-left: 1.2em;

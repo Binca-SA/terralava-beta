@@ -502,3 +502,23 @@
         }
     }
 }
+@media (min-width:700px){
+    .section-sizeGuide{
+        display: flex;
+        flex-direction: row;
+        &__title{
+            font-size: $h3-desk;
+        }
+        &__img{
+            width: 600px;
+            height: 600px;
+            margin-left: 0;
+            align-self: flex-end;
+            order: -1;
+            margin-left: -100px;
+        }
+        &__container{
+            margin: 0 auto;
+        }
+    }
+}
