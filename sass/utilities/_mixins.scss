@@ -20,3 +20,16 @@
     color: $background-color;
     border-radius: 8px;
 }
+@mixin titles-values{
+    font-family: $headers;
+    font-size:$p-footer-desk; 
+}
+@mixin text-values{
+    margin: {
+        left:$exterior-margen ;
+        right: $exterior-margen;
+        bottom: $molecule-margin;
+    }
+    font-size:$h5 ;
+    line-height: 160.5%;
+}

@@ -587,9 +587,11 @@ body {
   margin-left: 45px;
   margin-right: 45px;
   margin-bottom: 0;
+  line-height: 160.5%;
 }
 .section-miJoyaPerfecta__description-2 {
   margin: 45px;
+  line-height: 160.5%;
 }
 .section-miJoyaPerfecta__cta {
   margin-left: 45px;
@@ -745,15 +747,12 @@ body {
 .section-values__title {
   font-family: PP Hatton;
   font-size: 30px;
-  margin-left: 45px;
-  margin-right: 45px;
   width: 240px;
   line-height: 145.5%;
 }
 .section-values__container-silver__title {
   font-family: PP Hatton;
   font-size: 24px;
-  margin-left: 45px;
 }
 .section-values__container-silver__img {
   width: 80%;
@@ -763,7 +762,40 @@ body {
 .section-values__container-silver__text {
   margin-left: 45px;
   margin-right: 45px;
+  margin-bottom: 4em;
   font-size: 16px;
+  line-height: 160.5%;
+}
+.section-values__container-piedras__title {
+  font-family: PP Hatton;
+  font-size: 24px;
+  width: 300px;
+}
+.section-values__container-piedras__img {
+  width: 80%;
+  margin-left: 82px;
+}
+.section-values__container-piedras__text {
+  margin-left: 45px;
+  margin-right: 45px;
+  margin-bottom: 4em;
+  font-size: 16px;
+  line-height: 160.5%;
+}
+.section-values__container-boho__img {
+  width: 80%;
+  margin-left: 39px;
+}
+.section-values__container-boho__title {
+  font-family: PP Hatton;
+  font-size: 24px;
+}
+.section-values__container-boho__text {
+  margin-left: 45px;
+  margin-right: 45px;
+  margin-bottom: 4em;
+  font-size: 16px;
+  line-height: 160.5%;
 }
 
 .grid-shop {
@@ -1073,4 +1105,8 @@ body {
 .exterior-margin {
   margin-left: 45px;
   margin-right: 45px;
+}
+
+.margin-left-mob {
+  margin-left: 45px;
 }

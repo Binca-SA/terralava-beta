@@ -248,9 +248,11 @@
             right: $exterior-margen;
             bottom: 0;
         }
+        line-height: 160.5%;
     }
     &__description-2{
         margin: $exterior-margen;
+        line-height: 160.5%;
     }
     &__cta{
         margin-left: $exterior-margen;
@@ -384,18 +386,12 @@
     &__title{
         font-family: $headers;
         font-size:$h3 ;
-        margin: {
-            left: $exterior-margen;
-            right: $exterior-margen;
-        }
         width: 240px;
         line-height: 145.5%;
     }
     &__container-silver{
         &__title{
-            font-family: $headers;
-            font-size:$p-footer-desk; 
-            margin-left: $exterior-margen;
+            @include titles-values;
         }
         &__img{
             width: 80%;
@@ -403,11 +399,33 @@
             margin-right: $exterior-margen;
         }
         &__text{
-            margin: {
-                left:$exterior-margen ;
-                right: $exterior-margen;
-            }
-            font-size:$h5 ;
+            @include text-values;
         }
     }
+    &__container-piedras{
+        &__title{
+            @include titles-values;
+            width:300px ;
+        }
+        &__img{
+            width: 80%;
+            margin-left: 82px;
+        }
+        &__text{
+            @include text-values;
+        }
+    }
+    &__container-boho{
+        &__img{
+            width: 80%;
+            margin-left: 39px;
+        }
+        &__title{
+            @include titles-values;
+        }
+        &__text{
+            @include text-values;
+        }
+    }
+
 }
