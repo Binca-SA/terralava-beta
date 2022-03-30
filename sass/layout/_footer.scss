@@ -10,6 +10,9 @@
                 top: 0;
                 bottom:$atom-margin-icons;
             }
+            @media (min-width:700px){
+                width: 500px;
+            }
         }
         &__container{
             display: flex;
@@ -30,5 +33,20 @@
                 border: none;
             }
         }
+    }
+    &__contact-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap:$atom-margin;
+        &__text{
+            font-size:$h5;
+        }
+    }
+    &__cookies-container{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: $molecule-margin;
     }
 }
