@@ -42,19 +42,19 @@
         <div class="section-values__container-silver">
             <img class="section-values__container-silver__img" src="<?php echo $path; ?>images/home/values1.webp" alt="two models with rings in hand">
             <h5 class="section-values__container-silver__title margin-left-mob">SILVER 925</h5>
-            <p class="section-values__container-silver__text">Símbolo de lo femenino.
+            <p class="section-values__container-silver__text"><b>Símbolo de lo femenino</b>.
             Según los mitos egipcios, los huesos de los dioses eran de plata, siendo de oro sus carnes. 
             También representa la pureza, la nitidez de conciencia, la franqueza y rectitud.
             Y lo mejor de todo es que puedes llevarlas a diario ya que
-            por sus propiedades resiste muy bien el uso diario.
+            por sus propiedades <b>resiste muy bien el uso diario</b>.
             </p>
         </div>
 
         <div class="section-values__container-piedras">
             <img class="section-values__container-piedras__img" src="<?php echo $path; ?>images/tienda/pulseras/alanis.webp" alt="elastic bracelet with tiger's eye stone, brown">
             <h5 class="section-values__container-piedras__title margin-left-mob">PIEDRAS SEMIPRECIOSAS</h5>
-            <p class="section-values__container-piedras__text exterior-margin">Estamos unidos y comprometidos con la naturaleza y la energía que sentimos cuando estamos al aire libre. 
-            Es por ello que trabajamos con piedras semipreciosas. Nos aportan ciertas propiedades y bienestar según el tipo. De esta manera nuestras joyas no solo te aportan estética sino también riqueza espiritual. 
+            <p class="section-values__container-piedras__text exterior-margin">Estamos unidos y <b>comprometidos con la naturaleza</b> y la energía que sentimos cuando estamos al aire libre. 
+            Es por ello que trabajamos con piedras semipreciosas. Nos aportan ciertas <b>propiedades y bienestar</b> según el tipo. De esta manera nuestras joyas no solo te aportan estética sino también <b>riqueza espiritual</b>. 
             </p>
         </div>
 
@@ -62,22 +62,24 @@
             <img class="section-values__container-boho__img" src="<?php echo $path; ?>images/test/imagen1.webp" alt="silver parrot flower necklace">
             <h5 class="section-values__container-boho__title margin-left-mob">BOHO CHIC</h5>
             <p class="section-values__container-boho__text">Se puede ser las dos cosas.
-            No importa si te gusta llevar más de un anillo en cada mano o si prefieres la sencillez, nuestras joyas combinan con todas las personalidades. 
+            No importa si te gusta llevar más de un anillo en cada mano o si prefieres la sencillez, <b>nuestras joyas combinan con todas las personalidades</b>. 
             Con nustro estilo te aportamos esa sensualidad y luz que a todos nos gusta. 
             </p>
         </div>
-        <button class="intro-home__cta cta-buttoms margin-left-mob">
-            <svg width="25" height="25" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <g clip-path="url(#clip0_341_45)">
-                <path d="M17.064 43.336C28.008 34.984 33.864 31.144 45.192 24.04C33.864 16.936 28.008 13.096 17.064 4.744L13.8 9.544C25.128 16.072 29.544 18.568 40.488 24.04C29.544 29.512 25.128 32.008 13.8 38.536L17.064 43.336Z" fill="#9D0B0B"/>
-                </g>
-                <defs>
-                <clipPath id="clip0_341_45">
-                <rect width="48" height="48" fill="white"/>
-                </clipPath>
-                </defs>
-            </svg>Descubrir Colección
-        </button>
+        <div class="section-values__container-btn">
+            <button class="intro-home__cta cta-buttoms margin-left-mob">
+                <svg width="25" height="25" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0_341_45)">
+                    <path d="M17.064 43.336C28.008 34.984 33.864 31.144 45.192 24.04C33.864 16.936 28.008 13.096 17.064 4.744L13.8 9.544C25.128 16.072 29.544 18.568 40.488 24.04C29.544 29.512 25.128 32.008 13.8 38.536L17.064 43.336Z" fill="#9D0B0B"/>
+                    </g>
+                    <defs>
+                    <clipPath id="clip0_341_45">
+                    <rect width="48" height="48" fill="white"/>
+                    </clipPath>
+                    </defs>
+                </svg>Descubrir Colección
+            </button>
+        </div>
     </section>
 
     <section id="guia-de-tallas" class="section-sizeGuide section-margin-top">

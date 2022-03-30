@@ -33,3 +33,23 @@
     font-size:$h5 ;
     line-height: 160.5%;
 }
+@mixin containers-values{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: $organism-margin-desk;
+        &__img{
+            width: 30%;
+            margin-left: $exterior-margen;
+        }
+        &__title{
+            order: -1;
+            font-size: $h5-desk;
+            text-align: center;
+            font-weight: 200;
+        }
+        &__text{
+            max-width:500px ;
+        }
+}

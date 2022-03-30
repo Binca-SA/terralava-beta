@@ -476,3 +476,29 @@
     }
     
 }
+@media (min-width:700px){
+    .section-values{
+        &__title{
+            font-size: $h3-desk;
+        }
+        &__container-silver{
+            @include containers-values;
+        }
+        &__container-piedras{
+            @include containers-values;
+            
+        }
+        &__container-boho{
+            @include containers-values;
+        }
+        &__container-btn{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        &__cta{
+            margin: 0;
+            font-size:$cta-desk ;
+        }
+    }
+}
