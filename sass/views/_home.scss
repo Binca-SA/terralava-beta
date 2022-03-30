@@ -439,6 +439,7 @@
         z-index: $z-sub-below;
         width: 200px;
         margin-top: -10px;
+        margin-left: $exterior-margen;
     }
     &__img{
         background-image: url('../images/home/seccionTalla.webp');
@@ -508,6 +509,8 @@
         flex-direction: row;
         &__title{
             font-size: $h3-desk;
+            margin-left: -222px;
+            margin-top: -37px;
         }
         &__img{
             width: 600px;

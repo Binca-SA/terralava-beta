@@ -806,6 +806,7 @@ body {
   z-index: 1;
   width: 200px;
   margin-top: -10px;
+  margin-left: 45px;
 }
 .section-sizeGuide__img {
   background-image: url("../images/home/seccionTalla.webp");
@@ -973,6 +974,8 @@ body {
   }
   .section-sizeGuide__title {
     font-size: 48px;
+    margin-left: -222px;
+    margin-top: -37px;
   }
   .section-sizeGuide__img {
     width: 600px;

@@ -83,7 +83,7 @@
     </section>
 
     <section id="guia-de-tallas" class="section-sizeGuide section-margin-top">
-        <h3 class="section-sizeGuide__title margin-left-mob">GUÍA DE TALLAS</h3>
+        <h3 class="section-sizeGuide__title">GUÍA DE TALLAS</h3>
         <div class="section-sizeGuide__img"></div>
         <div class="section-sizeGuide__container">
             <img class="section-sizeGuide__container__imgRing" src="<?php echo $path; ?>images/home/infografiaTallaAnillo.png" alt="graphic drawing, indicates internal diameter of a ring">
