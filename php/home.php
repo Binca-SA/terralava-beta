@@ -80,9 +80,41 @@
         </button>
     </section>
 
-    <section id="guia-de-tallas" class="section-sizeGuide">
-        <h3 class="section-sizeGuide__title">GUÍA DE TALLAS</h3>
-        <img class="section-sizeGuide__img" src="" alt="palm of the hand with ring on the index finger">
-        <img class="section-sizeGuide__title__imgRing src="" alt="graphic drawing, indicates internal diameter of a ring">
+    <section id="guia-de-tallas" class="section-sizeGuide section-margin-top">
+        <h3 class="section-sizeGuide__title margin-left-mob">GUÍA DE TALLAS</h3>
+        <div class="section-sizeGuide__img"></div>
+        <div class="section-sizeGuide__container">
+            <img class="section-sizeGuide__container__imgRing" src="<?php echo $path; ?>images/home/infografiaTallaAnillo.png" alt="graphic drawing, indicates internal diameter of a ring">
+            <table class="section-sizeGuide__container__table">
+                <tr class="section-sizeGuide__container__table__title">
+                    <th>UK | US sizes</th>
+                    <th>Diámetro Interno</th>
+                </tr>
+                <tr>
+                    <td>5 | J</td>
+                    <td>15 mm</td>
+                </tr>
+                <tr>
+                    <td>6 | L</td>
+                    <td>16 mm</td>
+                </tr>
+                <tr>
+                    <td>7 | N</td>
+                    <td>17 mm</td>
+                </tr>
+                <tr>
+                    <td>8 | P</td>
+                    <td>17.5 mm</td>
+                </tr>
+                <tr>
+                    <td>9 | R</td>
+                    <td>18 mm</td>
+                </tr>
+                <tr>
+                    <td>10 | T</td>
+                    <td>19 mm</td>
+                </tr>
+            </table>
+        </div>
     </section>
 </div>

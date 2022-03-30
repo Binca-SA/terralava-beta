@@ -429,3 +429,50 @@
     }
 
 }
+
+/*SECTION SIZE GUIDE*/
+.section-sizeGuide{
+    &__title{
+        font-family: $headers;
+        font-size:$h3 ;
+        // position: absolute;
+        z-index: $z-sub-below;
+        width: 200px;
+        margin-top: -10px;
+    }
+    &__img{
+        background-image: url('../images/home/seccionTalla.webp');
+        background-size: cover;
+        background-position: 70% 50%;
+        background-repeat: no-repeat;
+        transform: rotate(90deg);
+        width: 300px;
+        height: 300px;
+        // width: 80%;
+        border-top-right-radius: 50%;
+        border-top-left-radius: 50%;
+    }
+    &__container{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        &__imgRing{
+            margin-top: $atom-margin;
+            width: 200px;
+            
+        }
+        &__table{
+            margin-top: $atom-margin;
+            row-gap: 2em;
+            border-spacing: 2em;
+            text-align: center;
+            &__title{
+                border-collapse: separate;
+                font-family: $headers;
+                font-weight: 200;
+                font-size: $h5;
+            }
+        }
+    }
+    
+}

@@ -15,4 +15,5 @@ body{
     background-color: $background-color;
     @include font-montserrat-mob;
     overflow-x: hidden;
+    overflow-y: hidden;
 }
