@@ -91,9 +91,11 @@ body {
 }
 
 .menu {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(38.69%, #F5F3EF), color-stop(90.29%, #D58763));
+  background: linear-gradient(180deg, #F5F3EF 38.69%, #D58763 90.29%);
   position: absolute;
   list-style: none;
-  z-index: 5;
+  z-index: 100;
   padding: 0;
   margin-right: 4em;
   border-radius: 8px;
@@ -132,8 +134,6 @@ body {
 
 /*menu secundario*/
 .container-submenu {
-  -webkit-backdrop-filter: blur(10px);
-          backdrop-filter: blur(10px);
   border-top-left-radius: 12px;
   border-top-right-radius: 12px;
   background: #ffffff01;
@@ -144,8 +144,6 @@ body {
   overflow: hidden;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
-  -webkit-backdrop-filter: blur(10px);
-          backdrop-filter: blur(10px);
   list-style: none;
   padding: 0;
   margin: 0;
@@ -175,6 +173,7 @@ body {
   }
 
   .menu {
+    background: none;
     margin-left: 0;
     display: -webkit-box;
     display: -ms-flexbox;
