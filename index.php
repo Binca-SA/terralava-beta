@@ -9,7 +9,7 @@
 
 
 
-
+<?php include($path . 'php/footer.php')?>
 <script type="module" src="js/section/menu.js"></script>
 <script type="module" src="js/section/slider.js"></script>
 

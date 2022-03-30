@@ -1,0 +1,34 @@
+.footer{
+    margin-top: 7em;
+    background:$background-footer;
+    &__newsletter{
+        &__title{
+            font-family: $headers;
+            font-size: 30px;
+            line-height:145.5% ;
+            margin: {
+                top: 0;
+                bottom:$atom-margin-icons;
+            }
+        }
+        &__container{
+            display: flex;
+            align-items:center ;
+            align-content: space-between;
+            gap: $atom-margin-icons;
+            &__input{
+                background: none;
+                border:none;
+                border-bottom:.5px solid black ;
+                
+            }
+            &__logo{
+                width: 50px;
+            }
+            &__button{
+                background: none;
+                border: none;
+            }
+        }
+    }
+}

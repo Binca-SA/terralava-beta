@@ -1270,6 +1270,42 @@ body {
   font-style: italic;
 }
 
+.footer {
+  margin-top: 7em;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(38.69%, rgba(213, 135, 99, 0)), color-stop(90.29%, #D58763));
+  background: linear-gradient(180deg, rgba(213, 135, 99, 0) 38.69%, #D58763 90.29%);
+}
+.footer__newsletter__title {
+  font-family: PP Hatton;
+  font-size: 30px;
+  line-height: 145.5%;
+  margin-top: 0;
+  margin-bottom: 1em;
+}
+.footer__newsletter__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: justify;
+      align-content: space-between;
+  gap: 1em;
+}
+.footer__newsletter__container__input {
+  background: none;
+  border: none;
+  border-bottom: 0.5px solid black;
+}
+.footer__newsletter__container__logo {
+  width: 50px;
+}
+.footer__newsletter__container__button {
+  background: none;
+  border: none;
+}
+
 .section-margin {
   padding-top: 7em;
 }

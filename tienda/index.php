@@ -18,6 +18,6 @@
         </div>
         <div id="list" class="list"></div>
     </section>
-    
+    <?php include($path . 'php/footer.php')?>
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <script type="module" src="<?php echo $path; ?>js/sections/shop.js"></script>

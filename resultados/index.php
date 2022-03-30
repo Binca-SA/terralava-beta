@@ -17,5 +17,5 @@
     </svg>
     Ver Todos Los Productos
 </button>
-
+<?php include($path . 'php/footer.php')?>
 <script type="module" src="<?php echo $path; ?>js/sections/imagenes.js"></script>
