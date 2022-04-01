@@ -3,20 +3,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500&display=swap");
 @font-face {
   font-family: PP Hatton;
-  src: url(.../font/PPHatton-Medium.otf);
+  src: url(../font/PPHatton-Medium.otf);
   font-style: medium;
   font-weight: 500;
 }
 @font-face {
   font-family: PP Hatton;
-  src: url(.../font/PPHatton-Bold.otf);
+  src: url(../font/PPHatton-Bold.otf);
   font-style: bold;
   font-weight: 700;
 }
 @font-face {
   font-family: PP Hatton;
-  src: url(.../font/PPHatton-Ultralight.otf);
-  font-style: ultralight;
+  src: url(../font/PPHatton-Ultralight.otf);
+  font-style: ultra-light;
   font-weight: 200;
 }
 * {
@@ -29,6 +29,7 @@ html {
   height: 100%;
   font-size: 62.5%;
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -235,6 +236,17 @@ body {
 }
 .cta-buttoms:hover {
   font-style: italic;
+}
+
+.links {
+  text-decoration: none;
+  color: #9D0B0B;
+}
+.links:hover {
+  color: #9D0B0B;
+}
+.links:visited {
+  color: #9D0B0B;
 }
 
 /*SLIDER*/
@@ -1151,6 +1163,9 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 .container-header-test__title-test {
   font-family: PP Hatton;
@@ -1159,6 +1174,7 @@ body {
   text-align: center;
 }
 .container-header-test__start-test {
+  cursor: pointer;
   color: #9D0B0B;
   font-size: 16px;
   font-weight: bold;
@@ -1186,6 +1202,14 @@ body {
 }
 
 .form-section {
+  scroll-behavior: smooth;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   background: -webkit-gradient(linear, left top, left bottom, from(#F5F3EF), color-stop(24.27%, #BDB09E), color-stop(50.83%, #E5B9B9), color-stop(77.6%, #F5B092), to(#D58763));
   background: linear-gradient(180deg, #F5F3EF 0%, #BDB09E 24.27%, #E5B9B9 50.83%, #F5B092 77.6%, #D58763 100%);
   padding-left: 45px;
@@ -1193,6 +1217,19 @@ body {
 }
 
 /*form - test section*/
+.test-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 50em;
+}
 .test-form__question {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1209,17 +1246,16 @@ body {
 }
 .test-form__question__yes {
   cursor: pointer;
+  padding: 1em;
 }
 .test-form__question__text {
   margin-bottom: 20px;
   font-size: 20px;
 }
-.test-form__question__yes {
-  padding: 1em;
-}
 .test-form__question__yes p {
-  font-weight: 600;
+  font-weight: 400;
   margin-top: 0;
+  margin: 0.5em;
 }
 
 .number-question {
@@ -1239,7 +1275,6 @@ body {
       -ms-flex-align: center;
           align-items: center;
   gap: 2em;
-  margin-bottom: 700px;
 }
 .container-both-questions__container-inputs {
   border: 1.5px solid black;
@@ -1247,7 +1282,18 @@ body {
   width: 150px;
   height: 150px;
 }
+.container-both-questions__container-inputs:active {
+  -webkit-box-shadow: -2px 2px 12px 9px #EBE4DA;
+          box-shadow: -2px 2px 12px 9px #EBE4DA;
+  background-color: #EBE4DA;
+}
 
+.inputTest {
+  opacity: 0;
+  position: absolute;
+}
+
+/*RESULTS SECTION*/
 .resultsTest {
   display: -ms-grid;
   display: grid;
@@ -1255,6 +1301,13 @@ body {
   grid-template-columns: repeat(2, 1fr);
   justify-items: center;
   gap: 2em;
+  margin-bottom: 1.2em;
+}
+
+.header-results {
+  font-family: PP Hatton;
+  font-size: 30px;
+  text-align: center;
 }
 
 .container-resultsImage:nth-of-type(3n) {

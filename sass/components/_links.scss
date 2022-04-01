@@ -1,0 +1,10 @@
+.links{
+    text-decoration: none;
+    color: $cta-color;
+    &:hover{
+        color: $cta-color;
+    }
+    &:visited{
+        color: $cta-color;
+    }
+}
