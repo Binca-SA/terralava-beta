@@ -1,12 +1,7 @@
 .footer{
-
     margin-top: 7em;
     background:$background-footer;
     &__newsletter{
-        margin-left: $exterior-margen;
-        @media (min-width:700px){
-            margin-left: $exterior-margen-desk
-        }
         &__title{
             font-family: $headers;
             font-size: 30px;
@@ -54,5 +49,4 @@
         align-items: center;
         gap: $molecule-margin;
     }
-
 }

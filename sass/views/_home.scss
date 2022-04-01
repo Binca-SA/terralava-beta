@@ -151,8 +151,8 @@
         }
         .swiper {
             margin-top: 0;
-            width: calc(20.6em *1.1);
-            height: calc(31em *1.1);
+            width: calc(20.6em *.8);
+            height: calc(31em *.8);
         }
         .swiper-button-next{
             grid-column: 2/3;
@@ -215,8 +215,7 @@
             margin: {
                 bottom: 1em;
             }
-            width: 350px;
-            font-size: 22px;
+            width: 250px;
         }
     }
 }

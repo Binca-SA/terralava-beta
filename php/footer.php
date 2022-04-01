@@ -1,6 +1,6 @@
 <?php $title="Footer";?>
 <footer class="footer">
-    <form class="footer__newsletter" action="">
+    <form class="footer__newsletter margin-left-mob" action="">
         <h6 class="footer__newsletter__title">¡Nos encanta avisar cuando traemos nuevas joyas o descuentos!</h6>
         <div class="footer__newsletter__container margin-bottom">
             <img class="footer__newsletter__container__logo" src="<?php echo $path; ?>images/logo/terralava-logo.png" alt="main logo of the jewelry store, when you click it takes you to the home">
@@ -18,6 +18,7 @@
                 </svg>
             </button>
         </div>
+        
     </form>
     <div class="footer__contact-container">
         <p class="footer__contact-container__text">Contacta con nosotros</p>
