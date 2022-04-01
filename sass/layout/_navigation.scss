@@ -36,7 +36,7 @@
     width: 50px;
 }
 .menu{
-    background: linear-gradient(180deg, #F5F3EF 38.69%, #D58763 90.29%);
+    background: $background-color;
     position: absolute;
     list-style: none;
     z-index: 100;
@@ -118,6 +118,7 @@
     .containter-topbar{
         padding-top:$atom-margin ;
         height: 80px;
+        font-size: 18px;
     }
     .container-logo{
         order:-1;
@@ -136,6 +137,7 @@
         // order: 2;
     }    
     .submenu{
+        background-color: $background-color;
         position: absolute;
         /* top: 60px;se separa del menu */
         // width: 200px;
@@ -151,8 +153,9 @@
         // border-bottom-right-radius: 8px;
     }
     .menu__link{
+        // background-color: $background-color;
         border: none;
-        // backdrop-filter: blur(10px);
+        backdrop-filter: blur(10px);
     }
     .container-submenu{
         // backdrop-filter: blur(10px);
@@ -160,6 +163,7 @@
             opacity: 1;
             visibility: visible;
         }
+        
     }
     .container-submenu:hover .submenu{
         opacity: 1;

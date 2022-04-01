@@ -36,6 +36,7 @@
             &__button{
                 background: none;
                 border: none;
+                cursor: pointer;
             }
         }
     }
@@ -55,4 +56,25 @@
         gap: $molecule-margin;
     }
 
+}
+@media (min-width:700px){
+    .footer__newsletter__container{
+        &__input{
+            width: 30%;
+            font-size: 18px;
+        }
+        &__logo{
+            width: 70px;
+        }
+    }
+}
+@media (min-width:700px){
+    .footer__contact-container{
+        &__text{
+            font-size: $p-footer-desk;
+        }
+    }
+    .footer__cookies-container__text{
+        font-size: $p-desk;
+    }
 }

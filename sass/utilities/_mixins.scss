@@ -2,7 +2,7 @@
 @mixin font-montserrat-mob{
     font-family: $paragraphs;
     font-weight: 500;
-    // font-size: $p-mob;
+    font-size: $p-mob;
 }
 
 // @mixin font-headers-mob{
@@ -30,7 +30,7 @@
         right: $exterior-margen;
         bottom: $molecule-margin;
     }
-    font-size:$h5 ;
+    font-size:$p-desk ;
     line-height: 160.5%;
 }
 @mixin containers-values{
