@@ -31,7 +31,8 @@
     }
     &__namedesc{
         font-weight: 400;
-        line-height: 110.5%;
+        line-height: 25px;
+        font-size: $p-desk;
     }
 }
 @media only screen and (min-width : 900px){
@@ -54,15 +55,13 @@
             width: 100%;
         }
         &__nameResult{
-            font-size: $p-mob;
+            font-size: $p-desk-bold;
             font-weight: 500;
         }
         &__nameprice{
-            font: {
-                size: $p-mob-bold;
-                style: italic;
-                weight: 400;
-            }
+            font-weight: 400;
+            font-size: $p-desk;
+            font-style: italic;
         }
     }
 }

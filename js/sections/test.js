@@ -49,7 +49,8 @@ document.querySelector('.button').addEventListener('click', function(){
 
 
 const scrollInto = function(tagToGo) {
-    var element = document.querySelector(tagToGo);
-    element.scrollIntoView();
+    var element = document.getElementById(tagToGo);
+    element.scrollIntoView({behavior : 'smooth'});
 }
-scrollInto();
+
+// scrollInto();
