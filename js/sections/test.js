@@ -32,24 +32,9 @@ document.querySelector('.button').addEventListener('click', function(){
 
 
 //SCROLL SMOOTH//
-// document.querySelectorAll('.imputTest').forEach(anchor => {
-//     anchor.addEventListener('click', function (e) {
-//         e.preventDefault();
-
-//         document.querySelector(this).scrollIntoView({
-//             behavior: 'smooth'
-//         });
-//     });
-// });
-
-// const element = document.querySelector(".container-both-questions__container-inputs");
-// element.scrollIntoView({
-//     behavior: 'smooth'
-// });
-
-
-const scrollInto = function(tagToGo) {
-    var element = document.getElementById(tagToGo);
+window.scrollInto = function(tagToGo) {
+    var element = document.querySelector(tagToGo);
+    console.log(element, tagToGo)
     element.scrollIntoView({behavior : 'smooth'});
 }
 

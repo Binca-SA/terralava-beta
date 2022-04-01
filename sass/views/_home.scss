@@ -179,8 +179,8 @@
 @media (min-width:2000px){
     .swiper {
         margin-top: 0;
-        width: calc(20.6em *1.5);
-        height: calc(31em *1.5);
+        width: calc(20.6em *2);
+        height: calc(31em *2);
     }
 }
 /*HOME-CTA INTRO*/
@@ -275,12 +275,13 @@
 }
 
 /*SECTION LINKS TO THE SHOP*/
+
 .section-linksShop{
     background-image: url('../images/home/backgroundLinks.webp');
     // background-size: 70%;
     background-repeat: no-repeat;
     background-size: contain;
-    background-position: 125px 0;
+    background-position: right;
     object-fit: contain;
     display: flex;
     justify-content: center;
@@ -288,6 +289,12 @@
     align-items:center;
     // min-height: 445px;
     // max-height: 770px;
+    &__img{
+        width: 95%;
+        position: absolute;
+        z-index:-1;
+        
+    }
     &__title{
         display: flex;
         justify-content: center;
@@ -328,11 +335,7 @@
             }
         }
     }
-    &__img{
-        width: 100%;
-        position: absolute;
-        z-index:-1;
-    }
+    
 }
 
 @media (min-width:700px){
@@ -386,8 +389,14 @@
     //     background-position: 160% 100%;
     // }
     .section-linksShop{
-        background-position: 800px -557px;
-        background-size: auto;
+        background-position: 950px -1457px;
+        background-size: 80%;
+        &__img{
+            width: 50%;
+        }
+        &__title{
+            font-size: $cta-desk;
+        }
         &__container-links__item{
             margin: {
                 top: .2em;
@@ -445,7 +454,7 @@
         }
     }
     &__container-btn{
-        margin-right: 22em;
+        // margin-right: 22em;
         margin-bottom: $section-margin-desk;
     }
 

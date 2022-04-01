@@ -22,8 +22,9 @@
         </div>
     </section>
 
-    <section class="section-margin-top">
+    <section class="section-links section-margin-top">
         <p class="section-linksShop__title">NUESTRAS CATEGORÍAS</p>
+        <!-- <img class="section-linksShop__img" src="<?php echo $path; ?>images/home/backgroundLinks.webp" alt=""> -->
         <div class="section-linksShop">
             <div class="section-linksShop__container-titleLinks"> 
                 <ul class="section-linksShop__container-links">
