@@ -5,7 +5,7 @@
 <section class="form-section section-margin">
     <div class="container-header-test">
         <h1 class="container-header-test__title-test">Descúbre tu joya perfecta con nuestro test </h1>
-        <a href="#1">
+        <a class="links" href="#1">
             <button id="startTest" class="container-header-test__start-test"> <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <circle cx="23.5374" cy="23.6665" r="9.78935" stroke="#9D0B0B"/>
                 <circle cx="24.0524" cy="24.181" r="3.60127" fill="#9D0B0B"/>
@@ -28,16 +28,16 @@
             </svg>
             <p class="test-form__question__text">¿Te gusta ponerte joyas que destacan a simple vista?</p>
             <div class="container-both-questions">
-                <label for="primera__1" class="container-both-questions__container-inputs">
-                    <a href="#2">Me gusta que sea una de las cosas que más destacan de mi estilo.</a>
-                    <!-- <label class="test-form__question__yes" for="primera__1"> -->
-                    <p>SI</p>                
+                <label onclick="scrollInto('#2')" for="primera__1" class="container-both-questions__container-inputs">
+                    <p class="pYes">SI</p>
+                    <a class="container-both-questions__links-quest links" href="#2">Me gusta que sea una de las cosas que más destacan de mi estilo.</a>
+                    <!-- <label onclick="scrollInto('#')" class="test-form__question__yes" for="primera__1"> -->                
                     <input class="inputTest" id="primera__1" name="primera" type="radio" value="1"> 
                 </label>           
-                <label for="dos" class="container-both-questions__container-inputs">
-                    <a href="#2">Prefiero destacar por otras cosas.</a> 
-                    <!-- <label class="test-form__question__yes" for="dos"> -->
-                    <p>NO</p>
+                <label onclick="scrollInto('#2')" for="dos" class="container-both-questions__container-inputs">
+                    <p class="pNo">NO</p>
+                    <a class="container-both-questions__links-quest links" href="#2">Prefiero destacar por otras cosas.</a> 
+                    <!-- <label onclick="scrollInto('#')" class="test-form__question__yes" for="dos"> -->
                     <input class="inputTest" id="dos"  name="primera" type="radio" value="2">
                 </label>
             </div>
@@ -52,17 +52,17 @@
             </svg>            
             <p class="test-form__question__text">¿El color es un elemento importante en tu día a día?</p>
             <div class="container-both-questions">
-                <label  for="tres" class="container-both-questions__container-inputs">
-                    <a href="#3">Amante de los colores, me dan alegría.
-                    <!-- <label class="test-form__question__yes" for="tres"> -->
-                    <p>SI</p>
+                <label onclick="scrollInto('#3')"  for="tres" class="container-both-questions__container-inputs">
+                    <p class="pYes">SI</p>
+                    <a class="container-both-questions__links-quest links" href="#3">Amante de los colores, me dan alegría.
+                    <!-- <label onclick="scrollInto('#')" class="test-form__question__yes" for="tres"> -->
                     <input class="inputTest" id="tres" name="segunda" type="radio" value="3"> 
                     </a>         
                 </label>
-                <label  for="cuatro"class="container-both-questions__container-inputs">
-                    <a href="#3">Lo justo y necesario.
-                    <!-- <label class="test-form__question__yes" for="cuatro"> -->
-                    <p>NO</p>        
+                <label onclick="scrollInto('#3')" for="cuatro"class="container-both-questions__container-inputs">
+                    <p class="pNo">NO</p> 
+                    <a class="container-both-questions__links-quest links" href="#3">Lo justo y necesario.
+                    <!-- <label onclick="scrollInto('#')" class="test-form__question__yes" for="cuatro"> -->        
                     <input class="inputTest" id="cuatro"  name="segunda" type="radio" value="4">
                     </a>
                 </label>
@@ -78,16 +78,16 @@
             </svg>            
             <p class="test-form__question__text">¿Te interesa el mundo de las piedras semipreciosas y sus beneficios y propiedades?</p>
             <div class="container-both-questions">
-                <label for="cinco" class="container-both-questions__container-inputs">
-                    <a href="#4">Creo que me aportan equilibrio y fuerza en mi día a día.</a>
-                    <!-- <label class="test-form__question__yes" for="cinco"> -->
-                    <p>SI</p>    
+                <label onclick="scrollInto('#4')" for="cinco" class="container-both-questions__container-inputs">
+                    <p class="pYes">SI</p>    
+                    <a class="container-both-questions__links-quest links" href="#4">Creo que me aportan equilibrio y fuerza en mi día a día.</a>
+                    <!-- <label onclick="scrollInto('#')" class="test-form__question__yes" for="cinco"> -->
                     <input class="inputTest" id="cinco"  name="tercera" type="radio" value="5">      
                 </label>
-                <label  for="seis" class="container-both-questions__container-inputs">
-                    <a href="#4">Son bonitas, pero no creo en eso.</a>
-                    <!-- <label class="test-form__question__yes" for="seis"> -->
-                    <p>NO</p>        
+                <label onclick="scrollInto('#4')"  for="seis" class="container-both-questions__container-inputs">
+                    <p class="pNo">NO</p>   
+                    <a class="container-both-questions__links-quest links" href="#4">Son bonitas, pero no creo en eso.</a>
+                    <!-- <label onclick="scrollInto('#')" class="test-form__question__yes" for="seis"> -->    
                     <input class="inputTest" id="seis" name="tercera" type="radio" value="6">        
                 </label>
             </div>
@@ -102,16 +102,16 @@
             </svg>            
             <p class="test-form__question__text">¿Te gusta vestir elegante?</p>
             <div class="container-both-questions">
-                <label for="primera__7" class="container-both-questions__container-inputs">
-                    <a href="#5">Lo intento, aunque a veces no me lo pienso demasiado.</a>
-                    <!-- <label class="test-form__question__yes" for="primera__7"> -->
-                    <p>SI</p>                  
+                <label onclick="scrollInto('#5')" for="primera__7" class="container-both-questions__container-inputs">
+                    <p class="pYes">SI</p>        
+                    <a class="container-both-questions__links-quest links" href="#5">Lo intento, aunque a veces no me lo pienso demasiado.</a>
+                    <!-- <label onclick="scrollInto('#')" class="test-form__question__yes" for="primera__7"> -->          
                     <input class="inputTest" id="primera__7" name="cuarta" type="radio" value="7">    
                 </label>
-                <label for="primera__8" class="container-both-questions__container-inputs">
-                <a href="5">No suelo complicarme mucho.</a>
-                    <!-- <label class="test-form__question__yes" for="primera__8"> -->
-                        <p>NO</p>                     
+                <label onclick="scrollInto('#5')" for="primera__8" class="container-both-questions__container-inputs">
+                    <p class="pNo">NO</p>     
+                    <a class="container-both-questions__links-quest links" href="5">No suelo complicarme mucho.</a>
+                    <!-- <label onclick="scrollInto('#')" class="test-form__question__yes" for="primera__8"> -->
                     <input class="inputTest" id="primera__8" name="cuarta" type="radio" value="8">
                 </label>
             </div>
@@ -126,16 +126,16 @@
             </svg>            
             <p class="test-form__question__text">¿Te cuesta decidirte por algo a la hora de elegir?</p>
             <div class="container-both-questions">
-                <label for="primera__9" class="container-both-questions__container-inputs">
-                    <a href="#6">La mayoría de las veces soy indecisa.</a>
-                    <!-- <label class="test-form__question__yes" for="primera__9"> -->
-                    <p>SI</p>    
+                <label onclick="scrollInto('#6')" for="primera__9" class="container-both-questions__container-inputs">
+                    <p class="pYes">SI</p>    
+                    <a class="container-both-questions__links-quest links" href="#6">La mayoría de las veces soy indecisa.</a>
+                    <!-- <label onclick="scrollInto('#')" class="test-form__question__yes" for="primera__9"> -->
                     <input class="inputTest" id="primera__9" name="quinta" type="radio" value="9">
                 </label>
-                <label  for="primera__10" class="container-both-questions__container-inputs">
-                    <a href="#6">Normalmente suelo tener muy claro que quiero.</a>
-                    <!-- <label class="test-form__question__yes" for="primera__10"> -->
-                    <p>NO</p>    
+                <label onclick="scrollInto('#6')"  for="primera__10" class="container-both-questions__container-inputs">
+                    <p class="pNo">NO</p>    
+                    <a class="container-both-questions__links-quest links" href="#6">Normalmente suelo tener muy claro que quiero.</a>
+                    <!-- <label onclick="scrollInto('#')" class="test-form__question__yes" for="primera__10"> -->
                     <input class="inputTest" id="primera__10" name="quinta" type="radio" value="10">
                 </label>
             </div>
@@ -150,16 +150,16 @@
             </svg>
             <p class="test-form__question__text">¿Te gusta probar cosas nuevas en tus looks?</p>
             <div class="container-both-questions">
-                <label for="primera__11" class="container-both-questions__container-inputs">
-                    <a href="#7">Me gusta arriesgarme.</a>
-                    <!-- <label class="test-form__question__yes" for="primera__11"> -->
-                    <p>SI</p>
+                <label onclick="scrollInto('#7')" for="primera__11" class="container-both-questions__container-inputs">
+                    <p class="pYes">SI</p>
+                    <a class="container-both-questions__links-quest links" href="#7">Me gusta arriesgarme.</a>
+                    <!-- <label onclick="scrollInto('#')" class="test-form__question__yes" for="primera__11"> -->
                     <input class="inputTest" id="primera__11" name="sexta" type="radio" value="11">
                 </label>
-                <label for="primera__12" class="container-both-questions__container-inputs">
-                    <a href="#7">Más vale prevenir que curar.</a>
-                    <!-- <label class="test-form__question__yes" for="primera__12"> -->
-                    <p>NO</p>
+                <label onclick="scrollInto('#7')" for="primera__12" class="container-both-questions__container-inputs">
+                    <p class="pNo">NO</p>
+                    <a class="container-both-questions__links-quest links" href="#7">Más vale prevenir que curar.</a>
+                    <!-- <label onclick="scrollInto('#')" class="test-form__question__yes" for="primera__12"> -->
                     <input class="inputTest" id="primera__12" name="sexta" type="radio" value="12">
                 </label>
             </div>
@@ -174,25 +174,35 @@
             </svg>
             <p class="test-form__question__text">¿Sueles hacer escapadas a lugares naturales?</p>
             <div class="container-both-questions">
-                <label for="primera__13" class="container-both-questions__container-inputs">
-                    <a href="#resultsButton">Necesito desconectar del ajetreo de la ciudad.</a>
-                    <!-- <label class="test-form__question__yes" for="primera__13"> -->
-                        <p>SI</p> 
-                        <input class="inputTest" id="primera__13" name="septima" type="radio" value="13">
-                    </label>
+                <label onclick="scrollInto('#resultsButton')" for="primera__13" class="container-both-questions__container-inputs">
+                    <p class="pYes">SI</p>
+                    <a class="container-both-questions__links-quest links" href="#resultsButton">Necesito desconectar del ajetreo de la ciudad.</a>
+                    <!-- <label onclick="scrollInto('#')" class="test-form__question__yes" for="primera__13"> --> 
+                    <input class="inputTest" id="primera__13" name="septima" type="radio" value="13">
                 </label>
                 
-                <label for="primera__14" class="container-both-questions__container-inputs">
-                    <!-- <label class="test-form__question__yes" for="primera__14"> -->
-                        <p>NO</p> 
-                        <a href="#resultsButton">Me gusta la naturaleza pero no hago muchas escapadas.</a>
-                        <input class="inputTest" id="primera__14" name="septima" type="radio" value="14">
+                <label onclick="scrollInto('#resultsButton')" for="primera__14" class="container-both-questions__container-inputs">
+                    <!-- <label onclick="scrollInto('#')" class="test-form__question__yes" for="primera__14"> -->
+                    <p class="pNo">NO</p> 
+                    <a class="container-both-questions__links-quest links" href="#resultsButton">Me gusta la naturaleza pero no hago muchas escapadas.</a>
+                    <input class="inputTest" id="primera__14" name="septima" type="radio" value="14">
                 </label>
             </div>
         </div>
         
     </form>
-    <button id="resultsButton" class="button">Resultados</button>
+    <button id="resultsButton" class="cta-buttoms button">
+        <svg width="25" height="25" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g clip-path="url(#clip0_341_45)">
+            <path d="M17.064 43.336C28.008 34.984 33.864 31.144 45.192 24.04C33.864 16.936 28.008 13.096 17.064 4.744L13.8 9.544C25.128 16.072 29.544 18.568 40.488 24.04C29.544 29.512 25.128 32.008 13.8 38.536L17.064 43.336Z" fill="#000"/>
+            </g>
+            <defs>
+            <clipPath id="clip0_341_45">
+            <rect width="48" height="48" fill="white"/>
+            </clipPath>
+            </defs>
+        </svg>RESULTADOS
+    </button>
 </section>
 <!-- <a href="./imagenes.html?images=${text}">Ver Resultados -->
 

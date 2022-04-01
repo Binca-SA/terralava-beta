@@ -240,13 +240,13 @@ body {
 
 .links {
   text-decoration: none;
-  color: #9D0B0B;
+  color: black;
 }
 .links:hover {
-  color: #9D0B0B;
+  color: black;
 }
 .links:visited {
-  color: #9D0B0B;
+  color: black;
 }
 
 /*SLIDER*/
@@ -1191,6 +1191,7 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
   gap: 0.7em;
+  text-underline-offset: 5px;
 }
 .container-header-test__intro-text {
   font-font-weight: light;
@@ -1252,11 +1253,6 @@ body {
   margin-bottom: 20px;
   font-size: 20px;
 }
-.test-form__question__yes p {
-  font-weight: 400;
-  margin-top: 0;
-  margin: 0.5em;
-}
 
 .number-question {
   font-size: 24px;
@@ -1279,13 +1275,33 @@ body {
 .container-both-questions__container-inputs {
   border: 1.5px solid black;
   border-radius: 4px;
-  width: 150px;
-  height: 150px;
+  width: 160px;
+  height: 160px;
 }
 .container-both-questions__container-inputs:active {
   -webkit-box-shadow: -2px 2px 12px 9px #EBE4DA;
           box-shadow: -2px 2px 12px 9px #EBE4DA;
   background-color: #EBE4DA;
+  border: #EBE4DA;
+}
+.container-both-questions__links-quest {
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+  margin-bottom: 1em;
+  text-align: center;
+  font-size: 14px;
+}
+
+.pYes, .pNo {
+  font-weight: 600;
+  text-align: center;
+}
+
+.button {
+  font-size: 1.2em;
+  color: black;
+  margin-top: 472px;
+  margin-bottom: 4em;
 }
 
 .inputTest {
@@ -1320,11 +1336,47 @@ body {
 .container-resultsImage__nameResult {
   margin-top: 10px;
   font-weight: 600;
+  font-family: PP Hatton;
+  font-weight: 400;
 }
 .container-resultsImage__namePrice {
   font-style: italic;
 }
+.container-resultsImage__namedesc {
+  font-weight: 400;
+  line-height: 110.5%;
+}
 
+@media only screen and (min-width: 900px) {
+  .sectionResults {
+    margin-left: 45px;
+    margin-right: 45px;
+  }
+
+  .resultsTest {
+    grid-gap: 2em;
+    -ms-grid-columns: 1fr 2em 1fr 2em 1fr 2em 1fr;
+    grid-template-columns: repeat(4, 1fr);
+    max-width: 100%;
+  }
+
+  .container-resultsImage:nth-of-type(1n) {
+    -ms-grid-column-span: 2;
+    grid-column: span 2;
+  }
+  .container-resultsImage__imgResultTest {
+    width: 100%;
+  }
+  .container-resultsImage__nameResult {
+    font-size: 14px;
+    font-weight: 500;
+  }
+  .container-resultsImage__nameprice {
+    font-size: 12px;
+    font-style: italic;
+    font-weight: 400;
+  }
+}
 .footer {
   margin-top: 7em;
   background: -webkit-gradient(linear, left top, left bottom, color-stop(38.69%, rgba(213, 135, 99, 0)), color-stop(90.29%, #D58763));

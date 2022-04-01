@@ -23,8 +23,46 @@
     &__nameResult{
         margin-top:10px;
         font-weight: 600;
+        font-family: $headers;
+        font-weight: 400;
     }
     &__namePrice{
         font-style: italic;
+    }
+    &__namedesc{
+        font-weight: 400;
+        line-height: 110.5%;
+    }
+}
+@media only screen and (min-width : 900px){
+    .sectionResults{
+        margin: {
+            left: $exterior-margen;
+            right: $exterior-margen;
+        }
+    }
+    .resultsTest{
+        grid-gap: 2em;
+        grid-template-columns: repeat(4, 1fr);
+        max-width: 100%;
+    }
+    .container-resultsImage{
+        &:nth-of-type(1n){
+            grid-column: span 2;
+        }
+        &__imgResultTest{
+            width: 100%;
+        }
+        &__nameResult{
+            font-size: $p-mob;
+            font-weight: 500;
+        }
+        &__nameprice{
+            font: {
+                size: $p-mob-bold;
+                style: italic;
+                weight: 400;
+            }
+        }
     }
 }
