@@ -271,6 +271,7 @@
     &__cta{
         margin-left: $exterior-margen;
         font-family: $headers;
+        justify-content: flex-start;
     }
 }
 
@@ -280,7 +281,8 @@
     // background-size: 70%;
     background-repeat: no-repeat;
     background-size: contain;
-    background-position: right;
+    // background-position: right;
+    background-position: 190px 0px;
     object-fit: contain;
 }
 .section-linksShop{
@@ -464,6 +466,11 @@
     }
 
 }
+// .container-img{
+//     width:500px ;
+//     height: 500px;
+//     margin: 0 auto;
+// }
 
 /*SECTION SIZE GUIDE*/
 .section-sizeGuide{

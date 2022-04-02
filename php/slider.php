@@ -19,7 +19,7 @@
     </section>
     <section class="intro-home">
         <h4 class="intro-home__title">JOYAS QUE RECARGAN TUS DÍAS CON LUZ, ENERGÍA Y PASIÓN</h4>
-        <button class="intro-home__cta cta-buttoms">
+        <a class="intro-home__cta cta-buttoms" href="<?php echo $path; ?>tienda">
         <svg width="25" height="25" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
             <g clip-path="url(#clip0_341_45)">
             <path d="M17.064 43.336C28.008 34.984 33.864 31.144 45.192 24.04C33.864 16.936 28.008 13.096 17.064 4.744L13.8 9.544C25.128 16.072 29.544 18.568 40.488 24.04C29.544 29.512 25.128 32.008 13.8 38.536L17.064 43.336Z" fill="#9D0B0B"/>
@@ -30,8 +30,7 @@
             </clipPath>
             </defs>
         </svg>
-        Ver Tienda
-        </button>
+        Ver Tienda </a>
     </section>
         
     <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>

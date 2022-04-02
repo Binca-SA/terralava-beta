@@ -18,6 +18,13 @@
 //     // margin-right: auto;
     
 // }
+
+// @supports(backdrop-filter){
+//     .containter-topbar{
+//         background-color: $background-color;
+//         backdrop-filter: blur(10px);
+// }
+
 .logo-img{
     width: 50px;
     height: 50px;
@@ -93,7 +100,7 @@
     border-top-left-radius: 12px;
     border-top-right-radius: 12px;
     background: #ffffff01;
-    // backdrop-filter:blur(10px) ;
+    // backdrop-filter:blur(10px);
 }
 .submenu{
     height: 0;
@@ -116,6 +123,7 @@
 /*para desktop*/
 @media (min-width:700px) {
     .containter-topbar{
+        // background-color: #9d0b0b55;
         padding-top:$atom-margin ;
         height: 80px;
         font-size: 14px;
@@ -135,10 +143,14 @@
         position: inherit;
         // margin-left: auto;
         margin-right: auto;
+        // &:active{
+        //     background-color: $cta-color;
+        // }
         // order: 2;
     }    
     .submenu{
-        background-color: $background-color;
+        // backdrop-filter: blur(10px);
+        // background-color: $background-color;
         position: absolute;
         /* top: 60px;se separa del menu */
         // width: 200px;
@@ -147,6 +159,8 @@
         visibility: hidden;
         opacity: 0 ;
         border: none;
+        
+        background-color: $cta-color;
         // border: 1px solid black;
         // border-left:1px solid black;
         // border-right:1px solid black ;
@@ -156,7 +170,6 @@
     .menu__link{
         // background-color: $background-color;
         border: none;
-        backdrop-filter: blur(10px);
     }
     .container-submenu{
         // backdrop-filter: blur(10px);
