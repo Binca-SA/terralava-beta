@@ -22,7 +22,7 @@
         </div>
     </section>
 
-    <section class="section-margin-top">
+    <section class="section-margin ">
     <p class="section-linksShop__title">NUESTRAS CATEGORÍAS</p>
     <div class="section-links">
         <!-- <img class="section-linksShop__img" src="<?php echo $path; ?>images/home/backgroundLinks.webp" alt=""> -->

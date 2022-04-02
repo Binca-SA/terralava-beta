@@ -133,7 +133,13 @@
 }
 
 /*para desktop*/
-@media (min-width:650px){
+@media (min-width:900px){
+    .vh{
+        display: flex;
+        height: 100vh;
+        justify-content: center;
+        flex-direction: column;
+    }
     .contenedor-swiper{
         padding-top: $molecule-margin;
     }
@@ -176,7 +182,7 @@
             font-size: 20px;
         }
 }
-@media (min-width:2000px){
+@media (min-width:1800px){
     .swiper {
         margin-top: 0;
         width: calc(20.6em *1.1);

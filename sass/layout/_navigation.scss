@@ -70,8 +70,16 @@
     font-size: $h2;
     text-decoration:none;
     color: black;
-    
-    // border-bottom: 1px solid black;
+    &:first-child{
+        &:hover{
+            border-top-left-radius: 8px;
+            border-top-right-radius: 8px;
+        }
+    }
+    &:last-child{
+            border-bottom-left-radius: 8px;
+            border-bottom-right-radius: 8px;
+    }
     &:hover{
         @include hoverButtons;
     }
