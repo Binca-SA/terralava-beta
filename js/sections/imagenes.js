@@ -3,7 +3,7 @@ const listOfImages = [
     {desc: 'Pendientes de plata de primera ley con forma de serpiente, perfectos para el lóbulo alto de la oreja ', name:'Pendientes Caeli', price:'12€', alt:'', img:'../images/test/imagen2.webp'},
     {desc: 'Pendientes con turquesa. La turquesa te ofrece bienestar al cuerpo y espíritu, considerada como amuleto desde tiempos remotos.', name:'Pendientes Naal', price:'18€', alt:'', img:'../images/test/imagen3.webp'},
     {desc: 'Pendientes de playa de primera ley 925 con detalles florales en su interior.', name: 'Pendientes Maeve', price:'19.50€', alt:'', img:'../images/test/imagen4.webp'},
-    {desc: 'Pulsera elástica de plata de primera ley con piedra de ojo de tigre. La piedra del ojo de tigre es considerada la piedra de la libertad. Carga de nergía positiva, protege frente a las malas vibraciones y ayuda con mantener el equilibrio de las emociones como el miedo, la ansiedad o la toma de decisiones. Muy utilizada durante siglos en la medicicina tradicional china', name:'Pulsera Alanis', price:'27€', alt:'', img:'../images/test/imagen5.webp'},
+    {desc: 'Pulsera elástica de plata de primera ley con piedra de ojo de tigre. La piedra del ojo de tigre es considerada la piedra de la libertad.', name:'Pulsera Alanis', price:'27€', alt:'', img:'../images/test/imagen5.webp'},
     {desc: 'Anillo de plata de primera ley con piedra lunar.', name:'Anillo Dian', price:'23€', alt:'', img:'../images/test/imagen6.webp'},
     {desc: 'Anillo de plata de primera ley con diseño de cabezas de serpeinte.', name: 'Anillo Hal', price:'23€', alt:'', img:'../images/test/imagen7.webp'},
     {desc: 'Colgante de plata de primera ley con forma de atrapasueños.', name: 'Colgante Enya', price:'20€', alt:'', img:'../images/test/imagen8.webp'},

@@ -32,7 +32,7 @@
     &__namedesc{
         font-weight: 400;
         line-height: 25px;
-        font-size: $p-desk;
+        font-size: 1em;
     }
 }
 @media only screen and (min-width : 900px){
@@ -55,7 +55,7 @@
             width: 100%;
         }
         &__nameResult{
-            font-size: $p-desk-bold;
+            font-size: $p-desk;
             font-weight: 500;
         }
         &__nameprice{

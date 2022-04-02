@@ -153,8 +153,8 @@
         }
         .swiper {
             margin-top: 0;
-            width: calc(20.6em *1.3);
-            height: calc(31em *1.3);
+            width: calc(20.6em *.8);
+            height: calc(31em *.8);
         }
         .swiper-button-next{
             grid-column: 2/3;
@@ -179,8 +179,8 @@
 @media (min-width:2000px){
     .swiper {
         margin-top: 0;
-        width: calc(20.6em *2);
-        height: calc(31em *2);
+        width: calc(20.6em *1.1);
+        height: calc(31em 1.1);
     }
 }
 /*HOME-CTA INTRO*/
@@ -217,12 +217,12 @@
         
         &__title{
             margin: {
-                top: -2em;
+                
                 bottom: 1em;
             }
             // position: absolute;
-            width: 380px;
-            font-size: 22px;
+            width: 350px;
+            font-size: 20px;
         }
         &__cta{
             margin-top: 6em;
@@ -275,14 +275,15 @@
 }
 
 /*SECTION LINKS TO THE SHOP*/
-
-.section-linksShop{
+.section-links{
     background-image: url('../images/home/backgroundLinks.webp');
     // background-size: 70%;
     background-repeat: no-repeat;
     background-size: contain;
     background-position: right;
     object-fit: contain;
+}
+.section-linksShop{
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -359,15 +360,19 @@
             // width: 550px;
         }
         &__description{
+            font-size: $p-desk-bold;
             margin-left: $section-margin-desk;
             // width: 500px;
             align-self:end ;
+            width: 600px;
         }
         &__description-2{
+            font-size: $p-desk-bold;
             margin-top: $atom-margin-desk;
             // width: 500px;
             margin-left: $section-margin-desk;
             margin-bottom: 0;
+            width: 600px;
             align-self:end ;
         }
         &__cta{
@@ -383,11 +388,11 @@
         margin-right: $exterior-margen-desk;
         grid-template-rows: 1fr .25fr .25fr .25fr;
     }
-    // .section-linksShop{
-    //     background-size: 69%;
-    //     background-repeat: no-repeat;
-    //     background-position: 160% 100%;
-    // }
+    .section-links{
+        background-size: 69%;
+        background-repeat: no-repeat;
+        background-position: 160% 100%;
+    }
     .section-linksShop{
         background-position: 950px -1457px;
         background-size: 80%;
@@ -395,14 +400,14 @@
             width: 50%;
         }
         &__title{
-            font-size: $cta-desk;
+            font-size: 20px;
         }
         &__container-links__item{
             margin: {
                 top: .2em;
                 bottom: .2em;
             }
-            font-size: $h3-desk;
+            font-size: $h5-desk;
         }
     }
 }
@@ -531,7 +536,7 @@
     }
     .intro-home__cta{
         margin: 0;
-        font-size:$cta-desk ;
+        font-size:20px ;
     }
 }
 @media (min-width:700px){

@@ -118,7 +118,7 @@
     .containter-topbar{
         padding-top:$atom-margin ;
         height: 80px;
-        font-size: 18px;
+        font-size: 14px;
     }
     .container-logo{
         order:-1;
@@ -127,6 +127,7 @@
         display: none;
     }
     .menu{
+        column-gap: $atom-margin;
         background:none;
         margin-left: 0;
         display: flex;

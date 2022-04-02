@@ -22,8 +22,9 @@
         </div>
     </section>
 
-    <section class="section-links section-margin-top">
-        <p class="section-linksShop__title">NUESTRAS CATEGORÍAS</p>
+    <section class="section-margin-top">
+    <p class="section-linksShop__title">NUESTRAS CATEGORÍAS</p>
+    <div class="section-links">
         <!-- <img class="section-linksShop__img" src="<?php echo $path; ?>images/home/backgroundLinks.webp" alt=""> -->
         <div class="section-linksShop">
             <div class="section-linksShop__container-titleLinks"> 
@@ -35,6 +36,7 @@
                 </ul>
             </div>
         </div>
+    </div>
     </section>
     <!-- <img class="section-linksShop__img" src="<?php echo $path; ?>images/home/backgroundLinks.webp" alt="hand with rings holding a flower"> -->
 

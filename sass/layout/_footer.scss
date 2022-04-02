@@ -11,6 +11,7 @@
             font-family: $headers;
             font-size: 30px;
             line-height:145.5% ;
+            width: 85vw;
             margin: {
                 top: 0;
                 bottom:$atom-margin-icons;
@@ -24,6 +25,7 @@
             align-items:center ;
             align-content: space-between;
             gap: $atom-margin-icons;
+            width: 50vw;
             &__input{
                 background: none;
                 border:none;
@@ -52,8 +54,9 @@
     &__cookies-container{
         display: flex;
         flex-direction: row;
+        justify-content: space-around;
         align-items: center;
-        gap: $molecule-margin;
+        gap: 3em;
     }
 
 }

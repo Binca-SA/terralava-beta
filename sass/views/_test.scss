@@ -95,10 +95,16 @@
     gap: 2em;
     
     &__container-inputs{
+        cursor: pointer;
         border: 1.5px solid black;
         border-radius: 4px;
         width: 160px;
         height: 160px;
+        &:hover{
+            box-shadow: -2px 2px 12px 9px #EBE4DA;
+            background-color: $background-color;
+            border: $background-color;
+        }
         &:active{
             box-shadow: -2px 2px 12px 9px #EBE4DA;
             background-color: $background-color;
@@ -134,9 +140,9 @@
     .container-header-test{
         row-gap: 2em;
         align-content:center ;
-        &__title-test{
-            margin-top: 5em;
-        }
+        // &__title-test{
+        //     // margin-top: 5em;
+        // }
         &__start-test{
             font-size: $cta-desk;
             font-weight:400;
@@ -147,21 +153,23 @@
     }
     .test-form__question{
         &__text{
-            font-size: $h3;
+            font-size: $p-footer-desk;
         }
     }
     .container-both-questions{
+        
         &__container-inputs{
+            justify-content: center;
             display: flex;
             flex-direction: column;
             align-content: center;
             // justify-content: center;
-            width: 270px;
-            height: 270px;
+            width: 220px;
+            height: 220px;
             
         }
         &__answers{
-            font-size: 20px;
+            font-size: 18px;
             margin: {
                 left: $atom-margin;
                 right: $atom-margin;
@@ -169,10 +177,10 @@
         }
     }
     .number-question{
-        font-size: $h3-desk;
+        font-size: $h5-desk;
     }
     .pYes, .pNo{
         // flex: .5;
-        font-size: 2em;
+        font-size: 1.5em;
     }
 }
