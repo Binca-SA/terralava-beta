@@ -180,7 +180,7 @@
     .swiper {
         margin-top: 0;
         width: calc(20.6em *1.1);
-        height: calc(31em 1.1);
+        height: calc(31em *1.1);
     }
 }
 /*HOME-CTA INTRO*/
@@ -224,9 +224,9 @@
             width: 350px;
             font-size: 20px;
         }
-        &__cta{
-            margin-top: 6em;
-        }
+        // &__cta{
+        //     margin-top: 6em;
+        // }
     }
 }
 @media (min-width:2000px){
@@ -341,7 +341,7 @@
     
 }
 
-@media (min-width:700px){
+@media (min-width:900px){
     .section-miJoyaPerfecta{
         display: flex;
         flex-direction: row;
@@ -413,7 +413,17 @@
         }
     }
 }
-
+// @media (min-width:700px){
+//     .section-links{
+//         background-position: 400px -270px;
+//         background-size: 60%;
+//     }   
+// }
+@media (min-width:1700px){
+    .section-links{
+        background-position: 850px -1200px;
+    }   
+}
 /*SECTION VALUES*/
 .section-values{
     &__title{
