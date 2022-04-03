@@ -17,12 +17,12 @@
                     <rect width="48" height="48" fill="white"/>
                     </clipPath>
                     </defs>
-                </svg>Ver Tienda
+                </svg>Test Mi Joya Perfecta
             </a>
         </div>
     </section>
 
-    <section class="section-margin ">
+    <section class="section-margin margin-bottom">
     <p class="section-linksShop__title">NUESTRAS CATEGORÍAS</p>
     <div class="section-links">
         <!-- <img class="section-linksShop__img" src="<?php echo $path; ?>images/home/backgroundLinks.webp" alt=""> -->

@@ -396,6 +396,8 @@
         margin-right: $exterior-margen-desk;
         grid-template-rows: 1fr .25fr .25fr .25fr;
     }
+}
+@media (min-width:800px){
     .section-links{
         background-size: 69%;
         background-repeat: no-repeat;
@@ -419,12 +421,7 @@
         }
     }
 }
-// @media (min-width:700px){
-//     .section-links{
-//         background-position: 400px -270px;
-//         background-size: 60%;
-//     }   
-// }
+
 @media (min-width:1700px){
     .section-links{
         background-position: 850px -1200px;
