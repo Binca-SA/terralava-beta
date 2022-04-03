@@ -11,23 +11,23 @@
             <ul class="menu " id="menu">
                 <!-- <li class="menu__item "><a href="" class="menu__link">Home</a></li> -->
                 <li class=" container-submenu">
-                    <a href="#" class="menu__link submenu-btn ">Joyas<svg class="arrow__icon" width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <a href="#" class="menu__link submenu-btn border-radius">Joyas<svg class="arrow__icon" width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path class="arrow__icon" d="M3 22L24 44.5L45 22" stroke="black" stroke-linecap="round"/>
                         <title>arrow button</title>
                         <desc>arrow icon for submenu button</desc>
                         </svg>
                     </a>
-                    <ul class="submenu  ">
-                    <li class="menu__item "><a href="<?php echo $path; ?>tienda" class="menu__link">Tienda</a></li>
-                        <li class="menu__item "><a href="" class="menu__link">Collares</a></li>
-                        <li class="menu__item "><a href="" class="menu__link">Anillos</a></li>
-                        <li class="menu__item "><a href="" class="menu__link">Pulseras</a></li>
-                        <li class="menu__item "><a href="" class="menu__link">Pendientes</a></li>
+                    <ul class="submenu ">
+                    <li class="menu__item-sub "><a href="<?php echo $path; ?>tienda" class=" menu__link bg-color">Tienda</a></li>
+                        <li class="menu__item-sub "><a href="" class="menu__link bg-color">Collares</a></li>
+                        <li class="menu__item-sub "><a href="" class="menu__link bg-color">Anillos</a></li>
+                        <li class="menu__item-sub "><a href="" class="menu__link bg-color">Pulseras</a></li>
+                        <li class="menu__item-sub "><a href="" class="menu__link bg-color">Pendientes</a></li>
                     </ul>
                 </li>
-                <li class="menu__item "><a href="<?php echo $path; ?>test" class="menu__link">Test Mi Joya Perfecta</a></li>
-                <li class="menu__item "><a href="<?php echo $path; ?>#sobre-las-joyas" class="menu__link">Sobre las joyas</a></li>
-                <li class="menu__item "><a href="<?php echo $path; ?>#guia-de-tallas" class="menu__link">Guía de tallas</a></li>
+                <li class="menu__item "><a href="<?php echo $path; ?>test" class="menu__link border-radius">Test Mi Joya Perfecta</a></li>
+                <li class="menu__item "><a href="<?php echo $path; ?>#sobre-las-joyas" class="menu__link border-radius">Sobre las joyas</a></li>
+                <li class="menu__item "><a href="<?php echo $path; ?>#guia-de-tallas" class="menu__link border-radius">Guía de tallas</a></li>
             </ul>
         </nav>
 

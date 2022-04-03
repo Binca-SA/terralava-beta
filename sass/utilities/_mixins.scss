@@ -18,7 +18,8 @@
     transition: all .4s ease-in-out;
     background-color: $cta-color;
     color: $background-color;
-    
+    // border-top-left-radius: 8px;
+    // border-top-right-radius: 8px;
 }
 @mixin titles-values{
     font-family: $headers;

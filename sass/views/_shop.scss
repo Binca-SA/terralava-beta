@@ -13,7 +13,7 @@
 }
 //FILTRO//
 .container-filter{
-    padding-top: 5em;
+    padding-top: 6em;
     &__filtro-tienda{
         display: flex;
         justify-content: center;
@@ -28,6 +28,7 @@
         cursor: pointer;
         color: $cta-color;
         width: 156px;
+        // min-height: 3em;
         padding: {
             top:1em;
             bottom: 1em;
@@ -36,8 +37,8 @@
         background: none;
         backdrop-filter: blur(10px); 
         border: 1.5px solid $cta-color;
-        // &:hover{
-        //     // @include hoverButtons;
+        // &:hover {
+        //     font-style: italic;
         // }
     }
     &__despliegue-filtro{
@@ -46,6 +47,10 @@
         padding-left: 0;
         margin-top: $atom-margin-desk;
         margin-bottom: 0;
+        border-top: 1px solid $cta-color;
+        // &:last-child{
+        //     padding-bottom: 0;
+        // }
     }
 }
     .filtro__link{
@@ -62,6 +67,7 @@
         text-align: center;
         list-style: none;
         text-decoration: none;
+        
     }
     .filtro__item:last-child{
         padding-bottom:0 ;
