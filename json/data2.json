@@ -52,7 +52,9 @@
         "piedra":false, 
         "imagen":"../images/tienda/collares/estelImg.webp",
         "estilo":"boho",
-        "llamativa":false
+        "llamativa":false,
+        "id":"c4",
+        "href":"../comprar.html?section=collar&product=c4"
     },
 
     {
@@ -64,7 +66,9 @@
         "piedra":true, 
         "imagen":"../images/tienda/collares/alleneImg.webp",
         "estilo":"chic",
-        "llamativa":true
+        "llamativa":true,
+        "id":"c5",
+        "href":"../comprar.html?section=collar&product=c5"
     },
 
     {
@@ -76,7 +80,9 @@
         "piedra":false, 
         "imagen":"../images/tienda/collares/cäit.webp",
         "estilo":"chic",
-        "llamativa":false
+        "llamativa":false,
+        "id":"c6",
+        "href":"../comprar.html?section=collar&product=c6"
     },
 
     {

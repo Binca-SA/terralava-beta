@@ -11,7 +11,9 @@ function getHTML(joya) {
     return `
     <div class="product">
         <div class="product__container-image">
+            <a href="../comprar/comprar.php">
             <img class="product__image" src="${joya.imagen}">
+            </a>
         </div>
         <div class="product__name">
             <h5 class="product__name__title">${joya.nombre}</h5>
@@ -48,7 +50,6 @@ function redenrizarProductos() {
 
 redenrizarProductos()
 
-
 //FILTRAR CADA CATEGORÍA//////////////////////////////////////////
 
 // let selectedFilter = 'collares'
@@ -71,3 +72,16 @@ function PaintCategories(selectedFilter) {
         }
     });
 }
+
+//COMPRAR PRODUCTO//
+// const params = new URLSearchParams(window.location.search);
+// const section= params.get('section');
+// const productId = params.get('product')
+
+// function comprar(comprar){
+//     const category = products[params.get('section')];
+//     const product = category.elements.find(function(){
+//         return product.id === productId;
+//     })
+//     console.log(comprar);
+// }
