@@ -28,10 +28,3 @@
 .margin-left-mob{
     margin-left: $exterior-margen;
 }
-.bg-color{
-    color: black;
-    &:hover{
-        background-color: $background-color;
-        color: $cta-color;
-    }
-}

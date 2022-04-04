@@ -144,12 +144,20 @@
         // &:nth-of-type(4n){
         //     grid-row: span 2;
         // }
+        &__container-img{
+            overflow: hidden;
+        }
         &__image{
+            cursor: pointer;
             margin: 0 auto;
             display: block;
             // height: auto;
             width: 100%;
             object-fit:cover;
+            transition: transform .2s ease-in;
+            &:hover{
+                transform: scale(1.1);
+            }
         }
         &__name__title{
             margin-top: 10px;

@@ -206,4 +206,12 @@
             border-radius: 8px;
         }
     }
+    .bg-color{
+        color: $background-color;
+        &:hover{
+            background-color: $background-color;
+            color: $cta-color;
+        }
+    }
+    
 }

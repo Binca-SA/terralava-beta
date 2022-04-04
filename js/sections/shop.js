@@ -10,7 +10,7 @@ btnFiltro.addEventListener("click", function(){
 function getHTML(joya) {
     return `
     <div class="product">
-        <div class="product__image">
+        <div class="product__container-image">
             <img class="product__image" src="${joya.imagen}">
         </div>
         <div class="product__name">

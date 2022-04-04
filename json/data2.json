@@ -8,7 +8,9 @@
     "piedra":false,
     "imagen":"../images/tienda/collares/lalla.webp",
     "estilo":"boho",
-    "llamativa":true
+    "llamativa":true,
+    "id":"c1",
+    "href":"../comprar.html?section=collar&product=c1"
     },
 
     {
@@ -18,9 +20,11 @@
         "descripcion": "Collar de piedra amazonita. Potencia la libertad e independenciad de quien la lleva. Te aportará fortaleza mental y claridad. Tiene propiedades calmantes en situaciones de estrés, ayuda a la creatividad ayudando a expresarnos.",
         "precio": "31.50 €",
         "piedra":true,
-        "imagen":"../images/tienda/collares/braedenAmazonita.webp",
+        "imagen":"../images/tienda/collares/braedenAmazonitaImg.webp",
         "estilo":"chic",
-        "llamativa":false
+        "llamativa":false,
+        "id":"c2",
+        "href":"../comprar.html?section=collar&product=c2"
     },
 
 
@@ -33,7 +37,9 @@
         "piedra":true, 
         "imagen":"../images/tienda/collares/alleneTurquesa.webp",
         "estilo":"boho",
-        "llamativa":true
+        "llamativa":true,
+        "id":"c3",
+        "href":"../comprar.html?section=collar&product=c3"
     },
     
 
@@ -44,7 +50,7 @@
         "descripcion": "Brújula en plata de ley 925.",
         "precio": "25 €",
         "piedra":false, 
-        "imagen":"../images/tienda/collares/estel.webp",
+        "imagen":"../images/tienda/collares/estelImg.webp",
         "estilo":"boho",
         "llamativa":false
     },
@@ -56,7 +62,7 @@
         "descripcion": "Colgante con piedra de concha. Actúa como regulador del estado de ánimo: calmar la ansiedad, la ira, la tensión y los cambios de humor.",
         "precio": "22 €",
         "piedra":true, 
-        "imagen":"../images/tienda/collares/allene.webp",
+        "imagen":"../images/tienda/collares/alleneImg.webp",
         "estilo":"chic",
         "llamativa":true
     },
@@ -76,11 +82,11 @@
     {
         "filtro":"Collares",
         "categoria":"Collar",
-        "nombre":"Collar Däirïne",
-        "descripcion": "Cadena de plata de primera ley 925.",
-        "precio": "30 €",
+        "nombre":"Collar Elish",
+        "descripcion": "Collar escarabajos de plata de primera ley 925.",
+        "precio": "20 €",
         "piedra":false, 
-        "imagen":"../images/tienda/collares/dairine.webp",
+        "imagen":"../images/tienda/collares/elishImg.webp",
         "estilo":"chic",
         "llamativa":false
     },
@@ -88,11 +94,11 @@
     {
         "filtro":"Collares",
         "categoria":"Collar",
-        "nombre":"Collar Elish",
-        "descripcion": "Collar escarabajos de plata de primera ley 925.",
-        "precio": "20 €",
+        "nombre":"Collar Däirïne",
+        "descripcion": "Cadena de plata de primera ley 925.",
+        "precio": "30 €",
         "piedra":false, 
-        "imagen":"../images/tienda/collares/elish.webp",
+        "imagen":"../images/tienda/collares/dairine.webp",
         "estilo":"chic",
         "llamativa":false
     },
@@ -116,7 +122,7 @@
         "descripcion": "Pendientes de playa de primera ley 925 para el lóbulo superior de la oreja.",
         "precio": "12 €",
         "piedra":false, 
-        "imagen":"../images/tienda/pendientes/naeli.webp",
+        "imagen":"../images/tienda/pendientes/caeliImg.webp",
         "estilo":"chic",
         "llamativa":false
     },
@@ -140,7 +146,7 @@
         "descripcion": "Pendientes con turquesa. La turquesa te ofrece bienestar al cuerpo y espíritu, considerada como amuleto desde tiempos remotos.",
         "precio": "18 €",
         "piedra":true, 
-        "imagen":"../images/tienda/pendientes/naal.webp",
+        "imagen":"../images/tienda/pendientes/naalImg.webp",
         "estilo":"boho",
         "llamativa":true
     },
@@ -152,22 +158,11 @@
         "descripcion": "Pendientes colgantes de plata de primera ley 925. ",
         "precio": "14 €",
         "piedra":false, 
-        "imagen":"../images/tienda/pendientes/miriel.webp",
+        "imagen":"../images/tienda/pendientes/mirielImg.webp",
         "estilo":"chic",
         "llamativa":true
     },
     
-    {
-        "filtro":"Pendientes",
-        "categoria":"Pendiente",
-        "nombre":"Pendientes Isla",
-        "descripcion": "Pendientes de plata de primera ley 925. ",
-        "precio": "20 €",
-        "piedra":false, 
-        "imagen":"../images/tienda/pendientes/isla.webp",
-        "estilo":"chic",
-        "llamativa":false
-    },
 
     {
         "filtro":"Pendientes",
@@ -184,35 +179,23 @@
     {
         "filtro":"Pendientes",
         "categoria":"Pendiente",
+        "nombre":"Pendientes Isla",
+        "descripcion": "Pendientes de plata de primera ley 925. ",
+        "precio": "20 €",
+        "piedra":false, 
+        "imagen":"../images/tienda/pendientes/isla.webp",
+        "estilo":"chic",
+        "llamativa":false
+    },
+
+    {
+        "filtro":"Pendientes",
+        "categoria":"Pendiente",
         "nombre":"Pendientes Eire",
         "descripcion": "Pendientes con forma de ojo de plata de primera ley 925. ",
         "precio": "27 €",
         "piedra":false, 
         "imagen":"../images/tienda/pendientes/eire.webp",
-        "estilo":"boho",
-        "llamativa":false
-    },
-
-    {
-        "filtro":"Anillos",
-        "categoria":"Anillo",
-        "nombre":"Anillo Bonnie",
-        "descripcion": "Anillo de plata de primera ley con piedra lunar. Esta piedra ayuda a relajar la mente y el cuerpo. También ayuda a dominar la ansiedad y emociones fuertes para expresarte mejor. Símbolo de esperanza es una piedra muy usada en la India. ",
-        "precio": "44 €",
-        "piedra":true, 
-        "imagen":"../images/tienda/anillos/bonnie.webp",
-        "estilo":"boho",
-        "llamativa":false
-    },
-
-    {
-        "filtro":"Anillos",
-        "categoria":"Anillo",
-        "nombre":"Anillo Onyx",
-        "descripcion": "Anillo de plata de primera ley con piedra ónix. Es una piedra espiritual muy popular, te aporta protección. Absorbe las energías negativas convirtiéndolas en positivas. También se cree que ayuda al desarrollo físico y mental.  ",
-        "precio": "44 €",
-        "piedra":true, 
-        "imagen":"../images/tienda/anillos/onyx.webp",
         "estilo":"boho",
         "llamativa":false
     },
@@ -232,6 +215,18 @@
     {
         "filtro":"Anillos",
         "categoria":"Anillo",
+        "nombre":"Anillo Bonnie",
+        "descripcion": "Anillo de plata de primera ley con piedra lunar. Esta piedra ayuda a relajar la mente y el cuerpo. También ayuda a dominar la ansiedad y emociones fuertes para expresarte mejor. Símbolo de esperanza es una piedra muy usada en la India. ",
+        "precio": "44 €",
+        "piedra":true, 
+        "imagen":"../images/tienda/anillos/bonnieImg.webp",
+        "estilo":"boho",
+        "llamativa":false
+    },
+
+    {
+        "filtro":"Anillos",
+        "categoria":"Anillo",
         "nombre":"Anillo Dian",
         "descripcion": "Anillo de plata de primera ley con piedra lunar.",
         "precio": "23 €",
@@ -244,11 +239,23 @@
     {
         "filtro":"Anillos",
         "categoria":"Anillo",
+        "nombre":"Anillo Onyx",
+        "descripcion": "Anillo de plata de primera ley con piedra ónix. Es una piedra espiritual muy popular, te aporta protección. Absorbe las energías negativas convirtiéndolas en positivas. También se cree que ayuda al desarrollo físico y mental.  ",
+        "precio": "44 €",
+        "piedra":true, 
+        "imagen":"../images/tienda/anillos/onyxImg.webp",
+        "estilo":"boho",
+        "llamativa":false
+    },
+
+    {
+        "filtro":"Anillos",
+        "categoria":"Anillo",
         "nombre":"Anillo Effie",
         "descripcion": "Anillo de plata de primera ley con piedra lunar.",
         "precio": "44 €",
         "piedra":true, 
-        "imagen":"../images/tienda/anillos/effie.webp",
+        "imagen":"../images/tienda/anillos/effieImg.webp",
         "estilo":"boho",
         "llamativa":true
     },
@@ -272,7 +279,7 @@
         "descripcion": "Anillo de plata de primera ley con diseño de cabezas de serpeinte.",
         "precio": "23 €",
         "piedra":false, 
-        "imagen":"../images/tienda/anillos/hal.webp",
+        "imagen":"../images/tienda/anillos/halImg.webp",
         "estilo":"chic",
         "llamativa":false
     },
@@ -292,18 +299,6 @@
     {
         "filtro":"Pulseras",
         "categoria":"Pulsera",
-        "nombre":"Pulsera Alanis",
-        "descripcion": "Pulsera elástica de plata de primera ley con piedra de ojo de tigre. La piedra del ojo de tigre es considerada la piedra de la libertad. Carga de nergía positiva, protege frente a las malas vibraciones y ayuda con mantener el equilibrio de las emociones como el miedo, la ansiedad o la toma de decisiones. Muy utilizada durante siglos en la medicicina tradicional china",
-        "precio": "27 €",
-        "piedra":true, 
-        "imagen":"../images/tienda/pulseras/alanis.webp",
-        "estilo":"boho",
-        "llamativa":false
-    },
-
-    {
-        "filtro":"Pulseras",
-        "categoria":"Pulsera",
         "nombre":"Pulsera Alda",
         "descripcion": "Pulsera elástica de plata de primera ley.",
         "precio": "27 €",
@@ -316,15 +311,15 @@
     {
         "filtro":"Pulseras",
         "categoria":"Pulsera",
-        "nombre":"Pulsera Sionn",
-        "descripcion": "Pulsera elástica de plata de primera ley con piedra de Onyx. Es una piedra espiritual muy popular, te aporta protección. Absorbe las energías negativas convirtiéndolas en positivas. También se cree que ayuda al desarrollo físico y mental.",
-        "precio": "37.50 €",
+        "nombre":"Pulsera Alanis",
+        "descripcion": "Pulsera elástica de plata de primera ley con piedra de ojo de tigre. La piedra del ojo de tigre es considerada la piedra de la libertad. Carga de nergía positiva, protege frente a las malas vibraciones y ayuda con mantener el equilibrio de las emociones como el miedo, la ansiedad o la toma de decisiones. Muy utilizada durante siglos en la medicicina tradicional china",
+        "precio": "27 €",
         "piedra":true, 
-        "imagen":"../images/tienda/pulseras/sionn.webp",
+        "imagen":"../images/tienda/pulseras/alanis.webp",
         "estilo":"boho",
         "llamativa":false
     },
-
+    
     {
         "filtro":"Pulseras",
         "categoria":"Pulsera",
@@ -333,6 +328,18 @@
         "precio": "27 €",
         "piedra":true, 
         "imagen":"../images/tienda/pulseras/myra.webp",
+        "estilo":"boho",
+        "llamativa":false
+    },
+
+    {
+        "filtro":"Pulseras",
+        "categoria":"Pulsera",
+        "nombre":"Pulsera Sionn",
+        "descripcion": "Pulsera elástica de plata de primera ley con piedra de Onyx. Es una piedra espiritual muy popular, te aporta protección. Absorbe las energías negativas convirtiéndolas en positivas. También se cree que ayuda al desarrollo físico y mental.",
+        "precio": "37.50 €",
+        "piedra":true, 
+        "imagen":"../images/tienda/pulseras/sionn.webp",
         "estilo":"boho",
         "llamativa":false
     },

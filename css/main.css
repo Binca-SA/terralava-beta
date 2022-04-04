@@ -234,6 +234,14 @@ body {
   .border-radius:hover {
     border-radius: 8px;
   }
+
+  .bg-color {
+    color: #EBE4DA;
+  }
+  .bg-color:hover {
+    background-color: #EBE4DA;
+    color: #9D0B0B;
+  }
 }
 .cta-buttoms {
   color: #9D0B0B;
@@ -1188,12 +1196,24 @@ body {
   max-width: 70vw;
 }
 
+.product__container-img {
+  overflow: hidden;
+}
 .product__image {
+  cursor: pointer;
   margin: 0 auto;
   display: block;
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+  -webkit-transition: -webkit-transform 0.2s ease-in;
+  transition: -webkit-transform 0.2s ease-in;
+  transition: transform 0.2s ease-in;
+  transition: transform 0.2s ease-in, -webkit-transform 0.2s ease-in;
+}
+.product__image:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 .product__name__title {
   margin-top: 10px;
@@ -1654,12 +1674,4 @@ body {
 
 .margin-left-mob {
   margin-left: 45px;
-}
-
-.bg-color {
-  color: black;
-}
-.bg-color:hover {
-  background-color: #EBE4DA;
-  color: #9D0B0B;
 }
