@@ -127,6 +127,9 @@
     text-align: center;
 }
 .button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: $cta;
     color: black;
     margin-top: $margin-questions-test;

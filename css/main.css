@@ -6,21 +6,18 @@
   src: url(../font/PPHatton-Medium.otf);
   font-style: medium;
   font-weight: 500;
-  font-display: optional;
 }
 @font-face {
   font-family: PP Hatton;
   src: url(../font/PPHatton-Bold.otf);
   font-style: bold;
   font-weight: 700;
-  font-display: optional;
 }
 @font-face {
   font-family: PP Hatton;
   src: url(../font/PPHatton-Ultralight.otf);
   font-style: ultra-light;
   font-weight: 200;
-  font-display: optional;
 }
 * {
   -webkit-box-sizing: border-box;
@@ -841,6 +838,11 @@ body {
     background-position: 850px -1200px;
   }
 }
+@media (min-width: 1900px) {
+  .section-links {
+    background-position: 1000px -1300px;
+  }
+}
 /*SECTION VALUES*/
 .section-values__title {
   font-family: PP Hatton;
@@ -1414,6 +1416,15 @@ body {
 }
 
 .button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   font-size: 1.2em;
   color: black;
   margin-top: 472px;

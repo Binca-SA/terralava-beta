@@ -4,10 +4,10 @@
             <h1 class="title-jewlery">Terralava</h1>
             <div class="swiper mySwiper">
                 <div class="swiper-wrapper">
-                    <div class="swiper-slide"><img src="./images/slider/slider1.webp" alt="hand with different types rings"></div>
+                    <div class="swiper-slide"><img src="./images/slider/slider4.webp" alt="hand with different types rings"></div>
                     <div class="swiper-slide"><img src="./images/slider/slider2.webp" alt="vase with necklace called lotus necklace"></div>
                     <div class="swiper-slide"><img src="./images/slider/slider3.webp" alt="model showing earrings called idril"></div>
-                    <div class="swiper-slide"><img src="./images/slider/slider4.webp" alt="hand holding orange leaves with different types of rings on the fingers"></div>
+                    <div class="swiper-slide"><img src="./images/slider/slider1.webp" alt="hand holding orange leaves with different types of rings on the fingers"></div>
                     <div class="swiper-slide"><img src="./images/slider/slider5.webp" alt="earring  called eara"></div>
                 </div>
             </div>

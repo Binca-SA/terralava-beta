@@ -427,6 +427,11 @@
         background-position: 850px -1200px;
     }   
 }
+@media (min-width:1900px){
+    .section-links{
+        background-position: 1000px -1300px;
+    }   
+}
 /*SECTION VALUES*/
 .section-values{
     &__title{
