@@ -29,6 +29,8 @@
                 <rect width="48" height="48" fill="white"/>
                 </clipPath>
                 </defs>
+                <title>Arrow icon</title>
+                <desc>arrow icon, points to view store button</desc>
             </svg>
             Ver Tienda </a>
         </section>

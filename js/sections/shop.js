@@ -12,7 +12,7 @@ function getHTML(joya) {
     <div class="product">
         <div class="product__container-image">
             <a href="../comprar/comprar.php">
-            <img class="product__image" src="${joya.imagen}">
+            <img alt="${joya.descripcion}" class="product__image" src="${joya.imagen}">
             </a>
         </div>
         <div class="product__name">

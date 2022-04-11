@@ -15,6 +15,8 @@
                     <rect width="48" height="48" fill="white"/>
                     </clipPath>
                     </defs>
+                    <title>Arrow icon</title>
+                    <desc>arrow icon, send your request</desc>
                 </svg>
             </button>
         </div>

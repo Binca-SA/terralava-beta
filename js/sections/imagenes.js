@@ -27,7 +27,7 @@ result.forEach(function(image) {
     document.querySelector('#main')
         .innerHTML += `
         <div class="container-resultsImage">
-            <img alt"" decode="async" loading="lazy" class="container-resultsImage__imgResultTest" src="${selectedImage.img}">
+            <img alt"${selectedImage.desc}" decode="async" loading="lazy" class="container-resultsImage__imgResultTest" src="${selectedImage.img}">
             <p class="container-resultsImage__nameResult">${selectedImage.name}</p>
             <p class="container-resultsImage__nameprice">${selectedImage.price}</p>
             <p class="container-resultsImage__namedesc">${selectedImage.desc}</p>

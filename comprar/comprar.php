@@ -3,6 +3,9 @@
 
 <?php include($path . 'php/head.php')?>
 <?php include($path . 'php/navigation.php')?>
+
+<!-- This purchase section is created manually with the aim of showing how the web would work in its entirety. It is not a definitive operation. -->
+
 <section class="comprar-container section-margin">
     <img class="comprar-container__img" src="../images/tienda/anillos/dian.webp" alt="silver ring with sphere in the center of moonstone ">
     <div class="comprar-container__container-text">

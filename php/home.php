@@ -17,6 +17,8 @@
                     <rect width="48" height="48" fill="white"/>
                     </clipPath>
                     </defs>
+                    <title>Arrow icon</title>
+                    <desc>arrow icon, points to view test section</desc>
                 </svg>Test Mi Joya Perfecta
             </a>
         </div>
