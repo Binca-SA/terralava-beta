@@ -2,6 +2,7 @@
 .comprar-container{
     &__img{
         width: 100%;
+        aspect-ratio: 1/1;
     }
     &__container-text{
         display: flex;
@@ -56,6 +57,7 @@
         &__img{
             margin-left: $section-margin;
             width: 40%;
+            aspect-ratio: 1/1;
         }
         &__titleYprice{
             margin-left: $exterior-margen;

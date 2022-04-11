@@ -425,9 +425,9 @@ body {
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+  aspect-ratio: 1/2;
 }
 
-/*contenedor paginacion con flechas*/
 .swiper-button-prev {
   grid-column: 1/-3;
   -ms-grid-row: 3;
@@ -445,7 +445,6 @@ body {
   margin-top: 2em;
   position: inherit;
 }
-
 .swiper-button-prev::after {
   color: #000;
   font-family: PP Hatton;
@@ -474,7 +473,6 @@ body {
   margin-top: 2em;
   position: inherit;
 }
-
 .swiper-button-next::after {
   color: #000;
   font-family: PP Hatton;
@@ -636,6 +634,7 @@ body {
 /*HOME-SECTION MI JOYA PERFECTA*/
 .section-miJoyaPerfecta__image {
   width: 100%;
+  aspect-ratio: 1/1;
 }
 .section-miJoyaPerfecta__title {
   font-family: PP Hatton;
@@ -697,6 +696,7 @@ body {
   width: 95%;
   position: absolute;
   z-index: -1;
+  aspect-ratio: 1/2;
 }
 .section-linksShop__title {
   display: -webkit-box;
@@ -861,6 +861,7 @@ body {
   width: 80%;
   margin-left: 0;
   margin-right: 45px;
+  aspect-ratio: 1/1;
 }
 .section-values__container-silver__text {
   margin-left: 45px;
@@ -876,6 +877,7 @@ body {
 .section-values__container-piedras__img {
   width: 80%;
   margin-left: 82px;
+  aspect-ratio: 1/1;
 }
 .section-values__container-piedras__text {
   margin-left: 45px;
@@ -886,6 +888,7 @@ body {
 .section-values__container-boho__img {
   width: 80%;
   margin-left: 39px;
+  aspect-ratio: 1/1;
 }
 .section-values__container-boho__title {
   font-family: PP Hatton;
@@ -919,6 +922,7 @@ body {
           transform: rotate(90deg);
   width: 300px;
   height: 300px;
+  aspect-ratio: 1/1;
   border-top-right-radius: 50%;
   border-top-left-radius: 50%;
 }
@@ -937,6 +941,7 @@ body {
 .section-sizeGuide__container__imgRing {
   margin-top: 1.2em;
   width: 200px;
+  aspect-ratio: 1/1;
 }
 .section-sizeGuide__container__table {
   margin-top: 1.2em;
@@ -1090,6 +1095,7 @@ body {
         -ms-flex-order: -1;
             order: -1;
     margin-left: -80px;
+    aspect-ratio: 1/1;
   }
   .section-sizeGuide__container {
     margin: 0 auto;
@@ -1218,6 +1224,7 @@ body {
   transition: -webkit-transform 0.2s ease-in;
   transition: transform 0.2s ease-in;
   transition: transform 0.2s ease-in, -webkit-transform 0.2s ease-in;
+  aspect-ratio: 1/1;
 }
 .product__image:hover {
   -webkit-transform: scale(1.1);
@@ -1510,6 +1517,7 @@ body {
 }
 .container-resultsImage__imgResultTest {
   width: 100%;
+  aspect-ratio: 1/1;
 }
 .container-resultsImage__nameResult {
   margin-top: 10px;
@@ -1545,6 +1553,7 @@ body {
   }
   .container-resultsImage__imgResultTest {
     width: 100%;
+    aspect-ratio: 1/1;
   }
   .container-resultsImage__nameResult {
     font-size: 18px;
@@ -1559,6 +1568,7 @@ body {
 /*SECCIÓN COMPRAR PRODUCTO*/
 .comprar-container__img {
   width: 100%;
+  aspect-ratio: 1/1;
 }
 .comprar-container__container-text {
   display: -webkit-box;
@@ -1624,6 +1634,7 @@ body {
   .comprar-container__img {
     margin-left: 118px;
     width: 40%;
+    aspect-ratio: 1/1;
   }
   .comprar-container__titleYprice {
     margin-left: 45px;

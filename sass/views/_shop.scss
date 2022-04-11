@@ -155,6 +155,7 @@
             width: 100%;
             object-fit:cover;
             transition: transform .2s ease-in;
+            aspect-ratio: 1/1;
             &:hover{
                 transform: scale(1.1);
             }

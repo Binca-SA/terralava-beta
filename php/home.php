@@ -56,7 +56,7 @@
         </div>
 
         <div class="section-values__container-piedras">
-            <img class="section-values__container-piedras__img" src="<?php echo $path; ?>images/tienda/pulseras/alanis.webp" alt="elastic bracelet with tiger's eye stone, brown">
+            <img class="section-values__container-piedras__img" src="<?php echo $path; ?>images/tienda/pulseras/alanis.jpg" alt="elastic bracelet with tiger's eye stone, brown">
             <h5 class="section-values__container-piedras__title margin-left-mob">PIEDRAS SEMIPRECIOSAS</h5>
             <p class="section-values__container-piedras__text exterior-margin">Estamos unidos y <b>comprometidos con la naturaleza</b> y la energía que sentimos cuando estamos al aire libre. 
             Es por ello que trabajamos con piedras semipreciosas. Nos aportan ciertas <b>propiedades y bienestar</b> según el tipo. De esta manera nuestras joyas no solo te aportan estética sino también <b>riqueza espiritual</b>. 

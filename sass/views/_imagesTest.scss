@@ -19,6 +19,7 @@
     }
     &__imgResultTest{
         width: 100%;
+        aspect-ratio: 1/1;
     }
     &__nameResult{
         margin-top:10px;
@@ -53,6 +54,7 @@
         }
         &__imgResultTest{
             width: 100%;
+            aspect-ratio: 1/1;
         }
         &__nameResult{
             font-size: $p-desk;
