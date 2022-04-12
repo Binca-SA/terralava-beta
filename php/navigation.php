@@ -33,7 +33,7 @@
 
         <div class="container-logo">
             <a href="<?php echo $path; ?>">
-                <img class="logo-img" src="<?php echo $path; ?>images/logo/terralava-logo.png" alt="main logo of the jewelry store, when you click it takes you to the home">
+                <img width="50px" height="50px" class="logo-img" src="<?php echo $path; ?>images/logo/terralava-logo.png" alt="main logo of the jewelry store, when you click it takes you to the home">
             </a>
         </div>
 
