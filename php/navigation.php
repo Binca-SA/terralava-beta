@@ -19,10 +19,10 @@
                     </a>
                     <ul class="submenu ">
                     <li class="menu__item-sub "><a href="<?php echo $path; ?>tienda" class=" menu__link bg-color">Tienda</a></li>
-                        <li class="menu__item-sub "><a href="" class="menu__link bg-color">Collares</a></li>
-                        <li class="menu__item-sub "><a href="" class="menu__link bg-color">Anillos</a></li>
-                        <li class="menu__item-sub "><a href="" class="menu__link bg-color">Pulseras</a></li>
-                        <li class="menu__item-sub "><a href="" class="menu__link bg-color">Pendientes</a></li>
+                        <li class="menu__item-sub "><a href="<?php echo $path; ?>tienda" class="menu__link bg-color">Collares</a></li>
+                        <li class="menu__item-sub "><a href="<?php echo $path; ?>tienda" class="menu__link bg-color">Anillos</a></li>
+                        <li class="menu__item-sub "><a href="<?php echo $path; ?>tienda" class="menu__link bg-color">Pulseras</a></li>
+                        <li class="menu__item-sub "><a href="<?php echo $path; ?>tienda" class="menu__link bg-color">Pendientes</a></li>
                     </ul>
                 </li>
                 <li class="menu__item "><a href="<?php echo $path; ?>test" class="menu__link border-radius">Test Mi Joya Perfecta</a></li>

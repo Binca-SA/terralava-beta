@@ -31,10 +31,10 @@
         <div class="section-linksShop">
             <div class="section-linksShop__container-titleLinks"> 
                 <ul class="section-linksShop__container-links">
-                    <li class="section-linksShop__container-links__item"><a class="section-linksShop__container-links__links-shop" href="">Collares</a></li>
-                    <li class="section-linksShop__container-links__item"><a class="section-linksShop__container-links__links-shop" href="">Anillos</a></li>
-                    <li class="section-linksShop__container-links__item"><a class="section-linksShop__container-links__links-shop" href="">Pulseras</a></li>
-                    <li class="section-linksShop__container-links__item"><a class="section-linksShop__container-links__links-shop" href="">Pendientes</a></li>
+                    <li class="section-linksShop__container-links__item"><a class="section-linksShop__container-links__links-shop" href="<?php echo $path; ?>tienda">Collares</a></li>
+                    <li class="section-linksShop__container-links__item"><a class="section-linksShop__container-links__links-shop" href="<?php echo $path; ?>tienda">Anillos</a></li>
+                    <li class="section-linksShop__container-links__item"><a class="section-linksShop__container-links__links-shop" href="<?php echo $path; ?>tienda">Pulseras</a></li>
+                    <li class="section-linksShop__container-links__item"><a class="section-linksShop__container-links__links-shop" href="<?php echo $path; ?>tienda">Pendientes</a></li>
                 </ul>
             </div>
         </div>
